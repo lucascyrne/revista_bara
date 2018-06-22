@@ -1,0 +1,423 @@
+/* -- GENERAL -- */
+
+p, h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Inconsolata', monospace;
+}
+
+.col-12 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body, main {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+
+ /* -- HEADER START -- */
+
+ #header_contain {
+
+ }
+
+#header {
+    padding: 1%;
+    border-bottom: 1px solid firebrick;
+}
+
+#logo {
+    max-width: 160px;
+    max-height: auto;
+    left: 110px;
+}
+
+#subs {
+    left: -100px;
+}
+
+
+#btn_signup {
+    left: 480px;
+}
+
+#lupa {
+    left: 360px;
+}
+
+/* -- HEADER END -- */
+
+/* -- NAV START -- */
+
+#nav_contain {
+  margin: 0;
+}
+
+#nav {
+    border-bottom: 1px solid firebrick;
+}
+
+
+#nav a:hover {
+    text-decoration-color: firebrick;
+}
+
+
+#nav_home {
+
+}
+
+#nav_edi {
+}
+
+#nav_sob {
+}
+
+#nav_cont {
+}
+
+#nav_colab {
+
+}
+
+/* -- NAV END -- */
+
+/* -- CAROUSEL START -- */
+
+.c-img {
+  max-height: 400px;
+}
+
+
+/* -- CAROUSEL END -- */
+
+/* -- QUOTE START -- */
+
+.quote_top {
+  margin-top: 80px;
+  margin-bottom: 60px;
+  border-top: 2.5px solid DimGray;
+}
+
+.quote_bottom {
+  margin-top: 80px;
+  border-bottom: 2.5px solid DimGray;
+}
+
+#quote_contain {
+  text-decoration: none;
+}
+
+.quote {
+  max-width: 1300px;
+  margin: 10px auto;
+  padding-top: 10px;
+  text-align: center;
+  font-style: italic;
+  font-size: 45px;
+  font-family: 'Libre Baskerville', serif;
+  color: rgba(43, 43, 43, 255);
+}
+
+.copy p {
+  margin-top: 15px;
+  margin-left: -30px;
+  padding-top: 10px;
+  color: rgba(43, 43, 43, 255);
+  font-size: 14px;
+  font-style: normal;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+
+
+
+/* -- QUOTE ENDS -- */
+
+/* -- PAGE STARTS -- */
+
+.section {
+}
+
+#main_container {
+  margin-top: 90px;
+}
+
+/* -- REVISTA STARTS -- */
+
+#revista-section-title {
+  margin-left: 90px;
+  margin-top: -30px;
+  margin-bottom: 80px;
+  font-family: 'Libre Baskerville', serif;
+
+}
+
+.revista-items {
+  margin-left: -25px;
+}
+
+.blog-post {
+
+}
+
+.blog-post h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin-top: 5px;
+}
+
+.blog-post h3 {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.blog-post p {
+  font-weight: lighter;
+}
+
+.blog-post a:hover {
+  color: Dimgray;
+  text-decoration: none;
+}
+
+#blog-post-01 {
+  float: left;
+  max-width: 400px;
+  height: 400px;
+  margin-left: 100px;
+}
+
+#blog-post-01 img {
+  width: 100%;
+  height: 220px;
+}
+
+#blog-post-02 {
+  float: left;
+  max-width: 400px;
+  height: 400px;
+}
+
+#blog-post-02 img {
+  width: 100%;
+  height: 220px;
+}
+
+#blog-post-03 {
+  float: right;
+  left: -50px;
+  max-width: 400px;
+  height: 400px;
+}
+
+#blog-post-03 img {
+  width: 100%;
+  height: 220px;
+}
+
+#blog-post-04 {
+  float: left;
+  max-width: 400px;
+  height: 400px;
+  margin-left: 100px;
+}
+
+#blog-post-04 img {
+  width: 100%;
+  height: 220px;
+}
+
+
+#blog-post-05 {
+  float: left;
+  max-width: 400px;
+  height: 400px;
+}
+
+#blog-post-05 img {
+  width: 100%;
+  height: 220px;
+}
+
+
+#blog-post-06 {
+  float: right;
+  max-width: 400px;
+  height: 400px;
+  left: -50px;
+}
+
+#blog-post-06 img {
+  width: 100%;
+  height: 220px;
+}
+
+#revista_allbtn {
+  margin: 40px auto;
+}
+
+#revista_btn {
+  border-radius: 0;
+  border-color: Dimgray;
+  color: black;
+  font-weight: lighter;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+}
+
+#revista_btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* -- REVISTA ENDS -- */
+
+/* -- SOBRE STARTS -- */
+
+#sobre_banner {
+  width: 100%;
+  height: 380px;
+  margin-top: 40px;
+  background-color: Whitesmoke;
+}
+
+#sobre p {
+  position: relative;
+  margin: 40px auto;
+  max-width: 700px;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+
+}
+
+#social img {
+  display: inline-block;
+}
+
+#links_banner {
+  position: relative;
+  left: 580px;
+}
+
+#facebook_btn {
+  width: 30px;
+}
+
+#instagram_btn {
+  width: 50px;
+}
+
+#mail-text {
+  position: relative;
+  float:left;
+  width: 300px;
+  height: 50px;
+  max-width: 300px;
+  margin-top: 20px;
+  left: 27%;
+
+}
+
+#mail-btn {
+  position: relative;
+  float:right;
+  height: 50px;
+  max-width: 300px;
+  left: 50%;
+  background-color: black;
+  color: white;
+  border-radius: 0;
+  top: -50px;
+}
+
+/* -- SOBRE ENDS -- */
+
+/* COLABORADORES START */
+
+#colaboradores-top {
+  margin-top: 80px;
+  border-top: 1px solid DimGray;
+}
+
+#colaboradores {
+  position: relative;
+  margin: 80px auto;
+  display: inline;
+  justify-content: center;
+}
+
+#colab01 {
+  max-width: 225px;
+}
+
+#colab02 {
+  max-width: 225px;
+}
+
+#colaboradores-bottom {
+  margin-top: 80px;
+  border-bottom: 1px solid DimGray;
+}
+
+/* COLABORADORES ENDS */
+
+/* -- NAV 2 START -- */
+
+#nav_contain2 {
+  margin: 0;
+}
+
+#nav2 {
+    border-bottom: 1px solid Dimgray;
+}
+
+
+#nav2 a:hover {
+    text-decoration-color: firebrick;
+}
+
+
+#nav_home2 {
+
+}
+
+#nav_edi2 {
+}
+
+#nav_sob2 {
+}
+
+#nav_cont2 {
+}
+
+#nav_colab2 {
+
+}
+
+/* -- NAV 2 END -- */
+
+/* -- FOOTER STARTS -- */
+
+#footer h6 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: -0.5px;
+}
+
+#footer a:hover {
+  color: DimGray;
+}
+
+/* -- FOOTER ENDS -- */
