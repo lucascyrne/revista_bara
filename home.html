@@ -13,8 +13,8 @@
 
     <!-- Font-family from fonts.googleapis -->
     <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -22,283 +22,360 @@
     <!-- Local CSS Stylesheet -->
     <link rel="stylesheet" href="_css/style.css">
 
-    <title>Site nº1 - Bootstrap</title> <!-- título -->
+    <title>Revista Bará Online | Revista Decolonial</title> <!-- título -->
 </head>
   <body cz-shortcut-listen="True">
 
-    <!-- HEADER START -->
+    <!-- LANDING PAGE STARTS -->
+    <section class="landing-page">
+      <!-- FUNDO PRETO STARTS -->
+      <section class="fundo">
+        <!-- MENU STARTS -->
+        <section class="menu">
+          <div class="nav-scroller">
+            <nav id="nav" class="nav d-flex justify-content-center">
+              <a class="px-4 py-2 order-1" href="#">HOME</a>
+              <a class="px-4 py-2 order-2" href="#">REVISTA</a>
+              <a class="px-4 py-2 order-3" href="#">SOBRE</a>
+              <a class="px-4 py-2 order-4" href="#">COLABORADORES</a>
+              <a class="px-4 py-2 order-5" href="#">CONTATOS</a>
+            </nav>
+          </div>
+        </section>
+        <!-- SOCIAL LINKS STARTS -->
+        <section class="social-links">
+          <div>
+            <span>
+              <a href="#"><img class="facebook-logo" src="_img/logos/facebook-white.png" alt=""></a>
+            </span>
+            <span>
+              <a href=""><img class="instagram-logo" src="_img/logos/instagram-white-b.png" alt=""></a>
+            </span>
+          </div>
 
-    <div id="header_contain">
-      <header id="header" class="blog-header">
-        <div class="row flex-wrap align-items-center justify-content-center">
-          <div id="logo" class="col-6 col-sm-6 order-2 justify-content-between">
-            <a class="blog-header-logo" href="#"><img class="img-fluid" src="_img/logos/logo_bara.png" alt="logo_bara"></a>
+        </section>
+        <!-- AREA01 STARTS -->
+        <section class="area01">
+          <div class="logo-landing-page">
+            <img id="logo-area01" src="_img/logos/logo_bara.png" alt="">
           </div>
-          <div id="subs" class="col-2 col-sm-2 order-1">
-            <a class="text-dark" href="#">SUBSCRIBE</a>
+          <div class="links-landing-page">
+            <a href="#">difference formulate</a> <a href="#">lodge</a> <a href="#">old rent</a> <a href="#">reconcile</a> <a href="#">Empathy</a> <a href="#">Av. Augusta</a> <a href="#">Roosevelt</a> <a href="#">Cachaça de banana</a> <a href="#">Construção moderna</a> <a href="#">Corpos</a> <a href="#">dollar dollar</a> <a href="#">O impacto da $BTC</a> <a href="#">Empathy</a> <a href="#">Av. Augusta</a> <a href="#">Roosevelt</a> <a href="#">Cachaça de banana</a> <a href="#">Construção moderna</a> <a href="#">Corpos</a> <a href="#">dollar dollar</a> <a href="#">O impacto da $BTC</a>
           </div>
-          <div id="btn_signup" class="col-2 col-sm-2 order-3">
-            <a class="btn btn-sm btn-outline-danger" href="#">SIGN UP</a>
-          </div>
-          <div id="lupa" class="col-2 col-sm-2 order-4">
-            <a class="text-dark" href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3"><circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg>
+
+        </div>
+        <!-- SLIDE STARTS -->
+        <section class="slide-inicial">
+
+          <section id="carousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel" data-slide-to="1"></li>
+              <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="carousel-item active c-img">
+                <img src="_img/posts/img-8.jpg" alt="">
+              </div>
+
+              <div class="carousel-item c-img">
+                <img src="_img/posts/img-9.jpg" alt="">
+              </div>
+
+              <div class="carousel-item c-img">
+                <img src="_img/posts/img-10.jpg" alt="">
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+
+
+          </section>
+        </section>
+        <!-- AREA02 STARTS -->
+        <section class="area02">
+          <div class="area02-inner">
+            <h1>Conheça a Revista Bará</h1>
+            <a href="#">
+                <span><img class="flecha img-fluid" src="_img/vetores/flecha01.png" alt=""></span>
             </a>
           </div>
-        </div>
-      </header>
-    </div>
+        </section>
 
-    <!-- HEADER END -->
+      </section>
+    </section>
+    <!-- LANDING PAGE ENDS -->
 
-    <!-- NAV START -->
-
-    <div id="nav_contain">
-
-      <div class="nav-scroller">
-        <nav id="nav" class="nav d-flex justify-content-center">
-          <a id="nav_home" class="px-4 py-2 order-1 text-dark active" href="#">HOME</a>
-          <a id="nav_edi" class="px-4 py-2 order-2 text-dark" href="#">REVISTA</a>
-          <a id="nav_sob" class="px-4 py-2 order-3 text-dark" href="#">SOBRE</a>
-          <a id="nav_colab" class="px-4 py-2 order-4 text-dark" href="#">COLABORADORES</a>
-          <a id="nav_cont" class="px-4 py-2 order-5 text-dark" href="#">CONTATOS</a>
-        </nav>
+    <!-- QUOTE SECTION START -->
+    <section class="quote">
+      <div class="borda-esquerda">
+        <span>
+          <img src="_img/vetores/quotes-white.png" alt="">
+        </span>
       </div>
-
-    <!-- NAV END -->
-
-    <!-- CAROUSEL -->
-
-    <div id="carousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-      </ol>
-
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="carousel-item active c-img">
-          <img class="img-fluid col-12 col-lg-12" src="_img/posts/img_4.jpg" alt="Three Indians Chiefs">
-        </div>
-
-        <div class="carousel-item c-img">
-          <img class="img-fluid col-12 col-lg-12" src="_img/posts/img_5.jpg" alt="">
-        </div>
-
-        <div class="carousel-item c-img">
-          <img class="img-fluid col-12 col-lg-12" src="_img/posts/img_6.jpg" alt="">
-        </div>
-      </div>
-
-      <!-- Left and right controls -->
-      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-
-    <!-- CAROUSEL END -->
-
-
-
-    <!-- QUOTE START -->
-
-    <div class="quote">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="col-10 quote_top d-flex mx-auto">
-            <!-- well said! -->
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <a id="quote_contain" href="#">
-            <p class="quote align-items-center">»Há uma violenta marginalização de certos corpos e, simultaneamente, a fantasia de que se é objetivo, neutro e universal.«</p>
-            <div class="copy align-items-center"><p>Grada Kilomba, artista e escritora</p></div>
+      <div class="quote-text">
+        <a href="#">
+          <h3>Não descendemos todos de pessoas europeias, nem exclusivamente e muitas vezes nem parcialmente, mas a nós foi imposta a perpetuação da língua e da “tradição” através dos nossos corpos e grupos sociais historicamente.</h3>
+        </a>
+        <div class="author-text">
+          <span><hr></span>
+          <a href="#">
+            <hr id="author-slash"><h4>Keyna Eleison</h4>
           </a>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="col-10 quote_bottom d-flex mx-auto">
-            <!-- well said! -->
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- QUOTE ENDS -->
-
-    <!-- PAGE START -->
-
-    <!-- REVISTA THUMBNAILS START -->
-
-    <main class="container-fluid col-xl" role="main" id="main_container">
-      <div class="row revista">
-        <section class="col-12"><h3 id="revista-section-title">Revista »</h3></section>
-
-        <div class="revista-items section col-12 grid">
-
-          <div id="blog-post-01" class="blog-post col order-1">
-            <a href="#">
-              <img class="img-fluid" src="_img/posts/img_1.png" alt="">
-              <h3>PARA OLHOS QUE PODEM VER.</h3>
-              <h1>Você tem nome de quem?</h1>
-              <p>O país apagou as ancestralidades africana e indígena e impôs nomes, língua, pensamento e verdade eurocêntricos.</p>
-            </a>
-          </div>
-
-          <div id="blog-post-02" class="blog-post col order-2">
-            <a href="#">
-              <img class="img-fluid" src="_img/posts/img_1.png" alt="">
-              <h3>10ª BIENAL DE BERLIM</h3>
-              <h1>Você tem nome de quem?</h1>
-              <p>O país apagou as ancestralidades africana e indígena e impôs nomes, língua, pensamento e verdade eurocêntricos.</p>
-            </a>
-          </div>
-
-          <div id="blog-post-03" class="blog-post col order-3">
-            <a href="#">
-              <img class="img-fluid" src="_img/posts/img_1.png" alt="">
-              <h3>ONTEM E HOJE</h3>
-              <h1>Você tem nome de quem?</h1>
-              <p>O país apagou as ancestralidades africana e indígena e impôs nomes, língua, pensamento e verdade eurocêntricos.</p>
-            </a>
-          </div>
-
-          <div id="blog-post-04" class="blog-post col order-1">
-            <a href="#">
-              <img class="img-fluid" src="_img/posts/img_1.png" alt="">
-              <h3>PARA OLHOS QUE PODEM VER.</h3>
-              <h1>Você tem nome de quem?</h1>
-              <p>O país apagou as ancestralidades africana e indígena e impôs nomes, língua, pensamento e verdade eurocêntricos.</p>
-            </a>
-          </div>
-
-          <div id="blog-post-05" class="blog-post col order-2">
-            <a href="#">
-              <img class="img-fluid" src="_img/posts/img_1.png" alt="">
-              <h3>10ª BIENAL DE BERLIM</h3>
-              <h1>Você tem nome de quem?</h1>
-              <p>O país apagou as ancestralidades africana e indígena e impôs nomes, língua, pensamento e verdade eurocêntricos.</p>
-            </a>
-          </div>
-
-          <div id="blog-post-06" class="blog-post col order-3">
-            <a href="#"></a>
-              <img class="img-fluid" src="_img/posts/img_1.png" alt="">
-              <h3>ONTEM E HOJE</h3>
-              <h1>Você tem nome de quem?</h1>
-              <p>O país apagou as ancestralidades africana e indígena e impôs nomes, língua, pensamento e verdade eurocêntricos.</p>
-            </a>
-          </div>
-        </div>
-
-        <div id="revista_allbtn">
-          <section>
-            <button id="revista_btn" class="btn btn-outline-dark" type="button" name="button">Veja todos</button>
-          </section>
-        </div>
-      </div>
-
-      <!-- REVISTA THUMBNAILS ENDS -->
-
-      <!-- SOBRE BANNER STARTS -->
-
-      <div class="row col-xl">
-        <section id="sobre_banner" class="container-fluid">
-          <div id="sobre">
-            <p>Bará é uma revista de arte dinâmica e crítica, cujo enfoque está na conexão entre a Afro-América Latina, o Caribe e a África.</p>
-          </div>
-          <div id="social">
-            <section id="links_banner">
-              <a href="#">
-                <img id="instagram_btn" class="img-fluid" src="img/logos/instagram-icon-black.png" alt="instagram link">
-              </a>
-              <a href="#">
-                <img id="facebook_btn" class="img-fluid" src="img/logos/logotipo-circular-facebok.jpg" alt="facebook link">
-              </a>
-            </section>
-          </div>
-          <div>
-            <div class="row">
-              <input id="mail-text" class="form-control-news-input" placeholder:"EMAIL ADRESS" type="text" name="" value="">
-            </div>
-          </div>
-          <div>
-            <div class="row">
-              <button id="mail-btn" class="btn btn-black btn-block news-btn mail-submit" type="submit" name="button">Assine a Newsletter</button>
-            </div>
-          </div>
-        </section>
-      </div>
-
-      <!-- SOBRE BANNER ENDS -->
-
-      <!-- COLABORADORES START -->
-      <section>
-          <div id="colaboradores-top"></div>
-          <div class="row d-flex" id="colaboradores">
-            <span>
-              <img id="colab01" class="img-fluid" src="img/logos/ifa-logo.png" alt="ifa-logo">
-            </span>
-            <span>
-              <img id="colab02" src="img/logos/goethe-logo.png" alt="goethe-logo">
-            </span>
-          </div>
-          <div id="colaboradores-bottom"></div>
-      </section>
-
-      <!-- COLABORADORES END -->
-
-      <!-- NAV 2 START -->
-
-      <div id="nav_contain2">
-
-        <div class="nav-scroller">
-          <nav id="nav2" class="nav d-flex justify-content-center">
-            <a id="nav_home2" class="px-4 py-2 order-1 text-dark active" href="#">HOME</a>
-            <a id="nav_edi2" class="px-4 py-2 order-2 text-dark" href="#">REVISTA</a>
-            <a id="nav_sob2" class="px-4 py-2 order-3 text-dark" href="#">SOBRE</a>
-            <a id="nav_colab2" class="px-4 py-2 order-4 text-dark" href="#">COLABORADORES</a>
-            <a id="nav_cont2" class="px-4 py-2 order-5 text-dark" href="#">CONTATOS</a>
-          </nav>
-        </div>
-
-      <!-- NAV 2 ENDS -->
-
-      <!-- FOOTER STARTS -->
-      <div id="footer" class="container-fluid">
+      <div class="quote-img">
         <span>
-          <h6>All content © 2018 Contemporary And. All Rights Reserved. Website by <a href="#">Lucas Cyrne</a></h6>
+          <img src="_img/posts/img-11.png" alt="">
         </span>
       </div>
+      <span>
+        <img id="quotes-black" src="_img/vetores/quotes-black.png" alt="">
+      </span>
+      <section id="section-quote-name">
+        <h3 class="vertical-text">QUOTES</h3>
+      </section>
 
-      <!-- FOOTER ENDS -->
+    </section>
+    <!-- QUOTE SECTION ENDS -->
+
+
+    <!-- REVISTA THUMBNAILS START -->
+    <section class="revista-posts">
+      <hr class="linha-superior">
+      <div class="revista-section-title">
+        <a href="#">
+          <h1>Revista <span id="seta">➔</span></h1>
+        </a>
+      </div>
+      <section class="revista-posts-inner">
+        <section class="revista-area01">
+          <section class="post-1">
+            <div class="post-1-inner">
+              <a href="#">
+                <img class="post-area01-img" src="_img/posts/img-4.jpg" alt="">
+              </a>
+              <a href="#">
+                <h2 class="post-title01-white">Você tem nome de quem?</h2>
+                <p class="post-text01-white">O Brasil apagou as ancestralidades africana e indígena e impôs nomes, língua, pensamento e verdade eurocêntricos.</p>
+              </a>
+            </div>
+          </section>
+          <section class="post-4">
+            <div class="post-4-inner">
+              <a href="#">
+                <img class="post-area01-img" src="_img/posts/img-6.jpg" alt="">
+              </a>
+              <a href="#">
+                <h2 class="post-title01-white">Você tem nome de quem?</h2>
+                <p class="post-text01-white">O Brasil apagou as ancestralidades africana e indígena e impôs nomes, língua, pensamento e verdade eurocêntricos.</p>
+              </a>
+            </div>
+
+          </section>
+          <section class="post-7">
+            <div class="post-7-inner">
+              <a href="#">
+                <img class="post-area01-img" src="_img/posts/img-5.jpg" alt="">
+              </a>
+              <a href="#">
+                <h2 class="post-title01-white">Você tem nome de quem?</h2>
+                <p class="post-text01-white">O Brasil apagou as ancestralidades africana e indígena e impôs nomes, língua, pensamento e verdade eurocêntricos.</p>
+              </a>
+            </div>
+          </section>
+
+        </section>
+        <section class="revista-area02">
+          <section class="post-2">
+            <div class="post-2-inner">
+              <a href="#">
+                <img class="post02-img" src="_img/posts/img-1.png" alt="">
+              </a>
+              <a href="#">
+                <h2 class="post02-title">Você tem nome de quem?</h2>
+                <p class="post02-text">O Brasil apagou as ancestralidades africana e indígena e impôs nomes, língua, pensamento e verdade eurocêntricos.</p>
+              </a>
+            </div>
+          </section>
+          <section class="post-5">
+            <div class="post-5-inner">
+              <a href="#">
+                <img class="post05-img" src="_img/posts/img-7.jpg" alt="">
+              </a>
+              <a href="#">
+                <h2 class="post05-title">Você tem nome de quem?</h2>
+                <p class="post05-text">O Brasil apagou as ancestralidades africana e indígena e impôs nomes, língua, pensamento e verdade eurocêntricos.</p>
+              </a>
+            </div>
+          </section>
+          <section class="post-8">
+            <div class="post-8-inner">
+              <a href="#">
+                <img class="post08-img" src="_img/posts/img-8.jpg" alt="">
+              </a>
+              <a href="#">
+                <h2 class="post08-title">Você tem nome de quem?</h2>
+                <p class="post08-text">O Brasil apagou as ancestralidades africana e indígena e impôs nomes, língua, pensamento e verdade eurocêntricos.</p>
+              </a>
+            </div>
+          </section>
+
+        </section>
+        <section class="revista-area03">
+          <section class="post-3">
+            <div class="post-3-inner">
+              <a href="#">
+                <img class="post-area01-img" src="_img/posts/img-10.png" alt="">
+              </a>
+              <a href="#">
+                <h2 class="post-title01-white">Você tem nome de quem?</h2>
+                <p class="post-text01-white">O Brasil apagou as ancestralidades africana e indígena e impôs nomes, língua, pensamento e verdade eurocêntricos.</p>
+              </a>
+            </div>
+          </section>
+          <section class="post-6">
+            <div class="post-6-inner">
+              <a href="#">
+                <img class="post-area01-img" src="_img/posts/img-2.png" alt="">
+              </a>
+              <a href="#">
+                <h2 class="post-title01-white">Você tem nome de quem?</h2>
+                <p class="post-text01-white">O Brasil apagou as ancestralidades africana e indígena e impôs nomes, língua, pensamento e verdade eurocêntricos.</p>
+              </a>
+            </div>
+          </section>
+          <section class="post-9">
+            <div class="post-9-inner">
+              <a href="#">
+                <img id="post09-img" class="post-area01-img" src="_img/posts/img-11.png" alt="">
+              </a>
+              <a href="#">
+                <h2 class="post-title01-white">Você tem nome de quem?</h2>
+                <p class="post-text01-white">O Brasil apagou as ancestralidades africana e indígena e impôs nomes, língua, pensamento e verdade eurocêntricos.</p>
+              </a>
+            </div>
+          </section>
+        </section>
+      </section>
+    </section>
+    <!-- REVISTA THUMBNAILS ENDS -->
+
+    <!-- SOBRE E AGENDA BANNER STARTS -->
+    <section class="events-section">
+      <section class="agenda-section">
+        <div class="agenda">
+          <div id="fundo-agenda-title">
+            <h2 id="agenda-title">EVENTOS</h2>
+          </div>
+          <iframe class="calendario" src="https://calendar.google.com/calendar/b/1/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=300&amp;wkst=1&amp;bgcolor=%23000000&amp;src=revistaonlinebara%40gmail.com&amp;color=%23711616&amp;ctz=America%2FRecife" style="border-width:0" width="600" height="300" frameborder="0" scrolling="no"></iframe>
+          <div class="agenda-text">
+            <div class="evento01">
+              <a href="#">
+                <h2>Dia 22/06, Quarta-feira</h2>
+              </a>
+              <a href="#">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacus dui, semper nec varius sit amet, bibendum in mi. Suspendisse eget faucibus nulla. Nam suscipit lorem ac pharetra posuere.</p>
+              </a>
+            </div>
+            <div class="evento02">
+              <a href="#">
+                <h2>Dia 21/06, Terça-feira</h2>
+              </a>
+              <a href="#">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacus dui, semper nec varius sit amet, bibendum in mi. Suspendisse eget faucibus nulla. Nam suscipit lorem ac pharetra posuere.</p>
+              </a>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+      <section class="newsletter-section">
+        <section class="logo02-area">
+          <img class="logo02-img" src="_img/logos/logo_bara.png" alt="">
+        </section>
+        <hr class="newsletter-divise">
+        <div class="newsletter-title">
+          <h2>INSCREVA-SE</h2>
+        </div>
+        <div class="newsletter">
+          <form class="newsletter">
+            <input type="email" class="email-box" value="" placeholder="revistaonlinebara@gmail.com" />
+            <input type="submit" class="submit-box" value="OK" />
+          </form>
+        </div>
+
+      </section>
+
+    </section>
+    <!-- SOBRE BANNER ENDS -->
+
+    <!-- COLABORADORES START -->
+    <section class="colaboradores-section">
+      <hr class="diviser">
+      <section class="colaboradores-title">
+        <h1>COLABORADORES</h1>
+      </section>
+      <section class="colaboradores-img-section">
+        <div class="colaborador01">
+          <img src="_img/logos/ifa-logo.png" alt="">
+        </div>
+        <div class="colaborador02">
+          <img src="_img/logos/goethe-logo.png" alt="">
+        </div>
+      </section>
+      <hr id="diviser2" class="diviser">
+
+    </section>
+    <!-- COLABORADORES END -->
+
+    <!-- NAV 2 START -->
+    <section class="menu2">
+      <div class="nav-scroller2">
+        <nav id="nav2" class="nav d-flex justify-content-center">
+          <a class="px-4 py-2 order-1" href="#">HOME</a>
+          <a class="px-4 py-2 order-2" href="#">REVISTA</a>
+          <a class="px-4 py-2 order-3" href="#">SOBRE</a>
+          <a class="px-4 py-2 order-4" href="#">COLABORADORES</a>
+          <a class="px-4 py-2 order-5" href="#">CONTATOS</a>
+        </nav>
+      </div>
+    </section>
+    <!-- NAV 2 ENDS -->
+
+    <!-- FOOTER STARTS -->
+    <section class="footer-section">
+      <footer class="footer-text">
+        <h6>Revista Bará. Lorem ipsum dolor sit amet. Site feito por <a href="#">Lucas Cyrne</a></h6>
+      </footer>
+    </section>
+    <!-- FOOTER ENDS -->
 
 
 
 
-        <!-- PAGE END -->
-    </main>
-    <!-- /.container -->
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!-- SLICK.JS -->
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script type="text/javascript" src="js/scipt.js">
+
 
 
     </script>

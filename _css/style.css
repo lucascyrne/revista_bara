@@ -1,423 +1,859 @@
 /* -- GENERAL -- */
 
-p, h1, h2, h3, h4, h5, h6, a {
-    font-family: 'Inconsolata', monospace;
-}
-
-.col-12 {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
 body, main {
   margin: 0;
   padding: 0;
+}
+
+/* LANDPAGE */
+
+.landing-page {
+  position: flex;
+
+}
+
+/* LANDING-P-FUNDO */
+
+.fundo {
+  position: relative;
+  z-index: 0;
+  display: block;
+  max-height: 632px;
   width: 100%;
+  height: 632px;
+  opacity: 0.9;
+  background-color: black;
 }
 
+/* FUNDO ENDS */
 
+/* MENU STARTS */
 
- /* -- HEADER START -- */
-
- #header_contain {
-
- }
-
-#header {
-    padding: 1%;
-    border-bottom: 1px solid firebrick;
+.menu {
+  position: relative;
+  width: 50%;
+  top: 20px;
+  left: 400px;
 }
 
-#logo {
-    max-width: 160px;
-    max-height: auto;
-    left: 110px;
+#nav a {
+  font-size: 14px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-weight: lighter;
 }
-
-#subs {
-    left: -100px;
-}
-
-
-#btn_signup {
-    left: 480px;
-}
-
-#lupa {
-    left: 360px;
-}
-
-/* -- HEADER END -- */
-
-/* -- NAV START -- */
-
-#nav_contain {
-  margin: 0;
-}
-
-#nav {
-    border-bottom: 1px solid firebrick;
-}
-
 
 #nav a:hover {
-    text-decoration-color: firebrick;
-}
-
-
-#nav_home {
-
-}
-
-#nav_edi {
-}
-
-#nav_sob {
-}
-
-#nav_cont {
-}
-
-#nav_colab {
-
-}
-
-/* -- NAV END -- */
-
-/* -- CAROUSEL START -- */
-
-.c-img {
-  max-height: 400px;
-}
-
-
-/* -- CAROUSEL END -- */
-
-/* -- QUOTE START -- */
-
-.quote_top {
-  margin-top: 80px;
-  margin-bottom: 60px;
-  border-top: 2.5px solid DimGray;
-}
-
-.quote_bottom {
-  margin-top: 80px;
-  border-bottom: 2.5px solid DimGray;
-}
-
-#quote_contain {
-  text-decoration: none;
-}
-
-.quote {
-  max-width: 1300px;
-  margin: 10px auto;
-  padding-top: 10px;
-  text-align: center;
-  font-style: italic;
-  font-size: 45px;
-  font-family: 'Libre Baskerville', serif;
-  color: rgba(43, 43, 43, 255);
-}
-
-.copy p {
-  margin-top: 15px;
-  margin-left: -30px;
-  padding-top: 10px;
-  color: rgba(43, 43, 43, 255);
-  font-size: 14px;
-  font-style: normal;
-  font-family: 'PT Sans Narrow', sans-serif;
-}
-
-
-
-
-
-/* -- QUOTE ENDS -- */
-
-/* -- PAGE STARTS -- */
-
-.section {
-}
-
-#main_container {
-  margin-top: 90px;
-}
-
-/* -- REVISTA STARTS -- */
-
-#revista-section-title {
-  margin-left: 90px;
-  margin-top: -30px;
-  margin-bottom: 80px;
-  font-family: 'Libre Baskerville', serif;
-
-}
-
-.revista-items {
-  margin-left: -25px;
-}
-
-.blog-post {
-
-}
-
-.blog-post h1 {
-  font-size: 24px;
-  font-weight: bold;
-  color: black;
-  margin-top: 5px;
-}
-
-.blog-post h3 {
-  margin-top: 10px;
-  font-size: 15px;
-  font-weight: lighter;
-}
-
-.blog-post p {
-  font-weight: lighter;
-}
-
-.blog-post a:hover {
   color: Dimgray;
   text-decoration: none;
 }
 
-#blog-post-01 {
-  float: left;
-  max-width: 400px;
-  height: 400px;
-  margin-left: 100px;
-}
+/* MENU ENDS */
 
-#blog-post-01 img {
-  width: 100%;
-  height: 220px;
-}
+/* SOCIAL LINKS STARTS */
 
-#blog-post-02 {
-  float: left;
-  max-width: 400px;
-  height: 400px;
-}
-
-#blog-post-02 img {
-  width: 100%;
-  height: 220px;
-}
-
-#blog-post-03 {
+.social-links {
+  position: relative;
   float: right;
-  left: -50px;
-  max-width: 400px;
-  height: 400px;
+  left: -30px;
+  top: -20px;
 }
 
-#blog-post-03 img {
-  width: 100%;
-  height: 220px;
+.instagram-logo {
+ position: relative;
+ width: 50px;
+ height: 25px;
+ top: 120px;
 }
 
-#blog-post-04 {
+.facebook-logo {
+  position: relative;
+  left: 43px;
+  top: 70px;
+  width: 30px;
+  height: 25px;
+}
+
+/* SOCIAL LINKS ENDS */
+
+/* AREA01 STARTS */
+
+.area01 {
+  position: relative;
   float: left;
-  max-width: 400px;
-  height: 400px;
-  margin-left: 100px;
+  z-index: 1;
+  top: -56px;
+  max-height: 650px;
+  max-width: 320px;
+  height: 650px;
+  width: 320px;
+  background-color: white;
 }
 
-#blog-post-04 img {
-  width: 100%;
-  height: 220px;
+#logo-area01 {
+  position: relative;
+  left: 50px;
+  top: 40px;
+  max-width: 200px;
+  width: 200px;
 }
 
-
-#blog-post-05 {
-  float: left;
-  max-width: 400px;
-  height: 400px;
+.links-landing-page {
+  position: relative;
+  left: 57px;
+  top:75px;
+  max-width: 200px;
+  max-height: 310px;
+  overflow: hidden;
 }
 
-#blog-post-05 img {
-  width: 100%;
-  height: 220px;
-}
-
-
-#blog-post-06 {
-  float: right;
-  max-width: 400px;
-  height: 400px;
-  left: -50px;
-}
-
-#blog-post-06 img {
-  width: 100%;
-  height: 220px;
-}
-
-#revista_allbtn {
-  margin: 40px auto;
-}
-
-#revista_btn {
-  border-radius: 0;
-  border-color: Dimgray;
+.links-landing-page a {
   color: black;
+  font-family: 'Oswald', sans-serif;
   font-weight: lighter;
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 19px;
-  letter-spacing: 2px;
+  font-size: 18px;
+  padding: 5px;
 }
 
-#revista_btn:hover {
+.links-landing-page a:hover {
+  color: black;
+  text-decoration: none;
+  background-color: rgba(255, 0, 0, 0.6);
+}
+
+/* AREA01 ENDS */
+
+/* CAROUSEL STARTS */
+
+.slide-inicial {
+  position: relative;
+  z-index: 0;
+  top: -320px;
+  left: 320px;
+  max-width: 940px;
+  max-height: 450px;
+  width: 940px;
+  height: 450px;
+  overflow: hidden;
+}
+
+#carousel,
+.carousel,
+.carousel-inner,
+.carousel-item {position: relative; z-index: -1;}
+
+.c-img img {
+  position: relative;
+  z-index: 0;
+  max-width: 100%;
+  width: 100%;
+  height: 450px;
+}
+
+
+/* CAROUSEL ENDS */
+
+/* AREA02 STARTS */
+
+.area02 {
+  position: relative;
+  z-index: 1;
+  left: 949px;
+  top: -368px;
+  height: 120px;
+  max-width: 400px;
+  width: 400px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.area02-inner h1 {
+  position: relative;
+  top: 45px;
+  left: 40px;
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+  color: black;
+  font-size: 20px;
+}
+
+.flecha {
+  position: relative;
+  left: 250px;
+  top: -8px;
+  width: 70px;
+  transform: rotate(180deg);
+}
+/* AREA02 ENDS */
+
+
+/* -- QUOTE START -- */
+
+.borda-esquerda {
+  position: relative;
+  width: 31.4%;
+  max-height: 636px;
+  height: 636px;
+  left: -322px;
   background-color: black;
+  opacity: 0.9;
+}
+
+.borda-esquerda img {
+  position: relative;
+  top: 250px;
+  left: 160px;
+  width: 50%;
+  height: 220px;
+
+}
+
+.quote {
+  position: relative;
+  left: 319px;
+  max-height: 636px;
+  width: 76.40%;
+  height: 636px;
+  background-color: rgba(255, 0, 0, 0.6);
+}
+
+.quote-text {
+  position: relative;
+  top: -290px;
+  left: 25px;
+  width: 60.5%;
+  height: 200px;
+  text-align: justify;
+}
+
+.quote-text h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 28px;
+  font-style: italic;
+  color: black;
+}
+
+.quote-text a:hover {
+  text-decoration: none;
+}
+
+.author-text h4 {
+  position: relative;
+  width: 250px;
+  left: 440px;
+  top: -25px;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+#author-slash {
+  position: relative;
+  top: 8px;
+  left: 80px;
+  width: 10%;
+  border: 1.5px solid black;
+}
+
+.quote-img img {
+  position: relative;
+  top: -750px;
+  left: -124px;
+  width: 73%;
+  height: 230px;
+  border: 5px solid black;
+}
+
+#quotes-black {
+  position: relative;
+  top: -715px;
+  left: 680px;
+  width: 13%;
+  height: 130px;
+  transform: rotate(180deg);
+}
+
+#section-quote-name {
+  position: relative;
+  top: -1109px;
+  left: 830px;
+  width: 15%;
+  height: 232px;
+  background-color: black;
+}
+
+.vertical-text {
+  position: relative;
+  top: 30px;
+  left: 45px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
   color: white;
 }
 
+/* -- QUOTE ENDS -- */
+
+/* -- REVISTA STARTS -- */
+
+.linha-superior {
+  position: relative;
+  width: 80%;
+  top: 50px;
+  left: 140px;
+  margin: 0;
+  border: 1px solid black;
+}
+
+.revista-posts {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 1000px;
+}
+
+.revista-section-title {
+  position: relative;
+  top: 100px;
+  left: 585px;
+  width: 20%;
+  height: 50px;
+}
+
+.revista-section-title h1 {
+  color: black;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 50px;
+
+}
+
+.revista-section-title a:hover {
+  text-decoration: none;
+}
+
+#seta {
+  position: relative;
+  top: 1.5px;
+}
+
+.revista-posts-inner {
+  position: relative;
+  width: 100%;
+  top: 160px;
+  height: auto;
+
+}
+
+.revista-posts a:hover {
+  text-decoration: none;
+}
+
+/* REVISTA AREA 01 STARTS */
+
+.revista-area01 {
+  position: relative;
+  float: left;
+  width: 32%;
+  height: 1100px;
+  background-color: rgba(255, 0, 0, 0.6);
+}
+
+.post-area01-img {
+  position: relative;
+  width: 100%;
+  max-height: 192px;
+}
+
+.post-title01-white {
+  position: relative;
+  top: 5px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+.post-text01-white {
+  position: relative;
+  top: 5px;
+  font-family: 'Inconsolata', monospace;
+  text-align: justify;
+  color: white;
+}
+
+.post-1 {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  width: 85%;
+  height: 333px;
+}
+
+.post-4 {
+  position: relative;
+  top: 50px;
+  left: 30px;
+  width: 85%;
+  height: 333px;
+}
+
+.post-7 {
+  position: relative;
+  top: 70px;
+  left: 30px;
+  width: 85%;
+  height: 333px;
+}
+
+/* REVISTA AREA 01 ENDS */
+
+/* REVISTA AREA 02 STARTS */
+
+.revista-area02 {
+  position: relative;
+  float; left;
+  left: 458px;
+  width: 32%;
+  height: 1100px;
+}
+
+.post02-img {
+  position: relative;
+  top: -1100px;
+  width: 100%;
+  max-height: 192px;
+}
+
+.post05-img {
+  position: relative;
+  top: -767px;
+  width: 100%;
+  max-height: 192px;
+}
+
+.post08-img {
+  position: relative;
+  top: -434px;
+  width: 100%;
+  max-height: 192px;
+}
+
+.post02-title {
+  position: relative;
+  text-align: justify;
+  top: -1093px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+.post02-text {
+  position: relative;
+  top: -1093px;
+  font-family: 'Inconsolata', monospace;
+  text-align: justify;
+  color: black;
+}
+
+.post05-title {
+  position: relative;
+  top: -760px;
+  text-align: justify;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+.post05-text {
+  position: relative;
+  top: -760px;
+  font-family: 'Inconsolata', monospace;
+  text-align: justify;
+  color: black;
+}
+
+.post08-title {
+  position: relative;
+  top: -427px;
+  text-align: justify;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+.post08-text {
+  position: relative;
+  top: -427px;
+  font-family: 'Inconsolata', monospace;
+  text-align: justify;
+  color: black;
+}
+
+.post-2 {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  width: 85%;
+  height: 333px;
+}
+
+.post-5 {
+  position: relative;
+  top: 50px;
+  left: 30px;
+  width: 85%;
+  height: 333px;
+}
+
+.post-8 {
+  position: relative;
+  top: 70px;
+  left: 30px;
+  width: 85%;
+  height: 333px;
+}
+
+/* REVISTA AREA 02 ENDS */
+
+/* REVISTA AREA 03 STARTS */
+
+.revista-area03 {
+  position: relative;
+  float: right;
+  top: -1100px;
+  width: 32%;
+  height: 1101px;
+  background-color: black;
+}
+
+.post-3 {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  width: 85%;
+  height: 333px;
+}
+
+.post-6 {
+  position: relative;
+  top: 50px;
+  left: 30px;
+  width: 85%;
+  height: 333px;
+}
+
+.post-9 {
+  position: relative;
+  top: 70px;
+  left: 30px;
+  width: 85%;
+  height: 333px;
+}
+
+#post09-img {
+  height: 192px;
+}
+
+/* REVISTA AREA 03 ENDS */
 /* -- REVISTA ENDS -- */
 
 /* -- SOBRE STARTS -- */
 
-#sobre_banner {
+.events-section {
+  position: relative;
+  top: 312px;
   width: 100%;
-  height: 380px;
-  margin-top: 40px;
-  background-color: Whitesmoke;
+  height: 634px;
 }
 
-#sobre p {
+.agenda-section {
   position: relative;
-  margin: 40px auto;
-  max-width: 700px;
-  color: black;
-  font-weight: bold;
-  font-size: 25px;
-  text-align: center;
-
-}
-
-#social img {
-  display: inline-block;
-}
-
-#links_banner {
-  position: relative;
-  left: 580px;
-}
-
-#facebook_btn {
-  width: 30px;
-}
-
-#instagram_btn {
-  width: 50px;
-}
-
-#mail-text {
-  position: relative;
-  float:left;
-  width: 300px;
-  height: 50px;
-  max-width: 300px;
-  margin-top: 20px;
-  left: 27%;
-
-}
-
-#mail-btn {
-  position: relative;
-  float:right;
-  height: 50px;
-  max-width: 300px;
-  left: 50%;
+  width: 68%;
+  height: 634px;
   background-color: black;
-  color: white;
-  border-radius: 0;
-  top: -50px;
 }
 
-/* -- SOBRE ENDS -- */
+#fundo-agenda-title {
+  position: relative;
+  top: 30px;
+  left: 70px;
+  width: 9%;
+  height: 280px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+#agenda-title {
+  position: relative;
+  top: -137px;
+  left: 5px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-family: 'Oswald', sans-serif;
+  font-size: 26px;
+  color: black;
+}
+
+.calendario {
+  position: relative;
+  top: -270px;
+  left: 210px;
+}
+
+.agenda-text {
+  position: relative;
+  top: -245px;
+  left: 70px;
+  width: 81%;
+  height: 250px;
+}
+
+.agenda-text a:hover {
+  text-decoration: none;
+}
+
+.agenda-text h2:hover {
+  color: Dimgray;
+}
+
+.agenda-text p:hover {
+  color: Dimgray;
+}
+
+.agenda-text h2 {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  text-align: justify;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 22px;
+}
+
+.agenda-text p {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  text-align: justify;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 14px;
+}
+
+.newsletter-section {
+  position: relative;
+  top: -633px;
+  left: 917px;
+  width: 32%;
+  height: 634px;
+}
+
+.logo02-area {
+  position: relative;
+  top: 15px;
+  width: 100%;
+  height: 285px;
+}
+
+.logo02-img {
+  position: relative;
+  left: 50px;
+  width: 80%;
+  height: auto;
+}
+
+.newsletter-divise {
+  position: relative;
+  left: 5px;
+  width: 50%;
+  border: 5px solid black;
+}
+
+.newsletter-title {
+  position: relative;
+  top: 25px;
+  left: 35px;
+  width: 90%;
+  height: 350px;
+}
+
+.newsletter-title h2 {
+  position: relative;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-size: 40px;
+  letter-spacing: 12px;
+}
+
+.newsletter {
+  position: relative;
+  top: -120px;
+  left: 25px;
+  width: 90%;
+}
+
+.email-box {
+  position: relative;
+  width: 100%;
+  height: 65px;
+  background-color: white;
+  border: 4px solid black;
+}
+
+::-moz-placeholder {
+  font-size: 22px;
+  font-family: 'Inconsolata', monospace;
+  color: black;
+}
+
+.submit-box {
+  position: relative;
+  top: 20px;
+  left: 130px;
+  width: 25%;
+  height: 50px;
+  border: 0px solid black;
+  background-color: white;
+  font-style: 'Oswald', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+/* -- EVENTS ENDS -- */
 
 /* COLABORADORES START */
 
-#colaboradores-top {
-  margin-top: 80px;
-  border-top: 1px solid DimGray;
-}
-
-#colaboradores {
+.colaboradores-section {
   position: relative;
-  margin: 80px auto;
-  display: inline;
-  justify-content: center;
+  top: 296px;
+  width: 100%;
+  height: 400px;
+  background-color: white;
 }
 
-#colab01 {
-  max-width: 225px;
+.diviser {
+  position: relative;
+  width: 75%;
+  top: 60px;
+  border: 5px solid black;
 }
 
-#colab02 {
-  max-width: 225px;
+.colaboradores-title {
+  position: relative;
+  top: -10px;
+  left: 250px;
+  width: 35%;
+  height: 100px;
+  background-color: white;
 }
 
-#colaboradores-bottom {
-  margin-top: 80px;
-  border-bottom: 1px solid DimGray;
+.colaboradores-title h1 {
+  position: relative;
+  top: 15px;
+  text-align: center;
+  font-size: 50px;
+  font-style: 'Oswald', sans-serif;
+  color: black;
+}
+
+.colaboradores-img-section {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.colaborador01 {
+  position: relative;
+  top: 100px;
+  left: 350px;
+  width: 20%;
+  height: 100px;
+}
+
+.colaborador01 img {
+  position: relative;
+  width: 100%;
+}
+
+.colaborador02 {
+  position: relative;
+  left: 700px;
+  width: 20%;
+  height: 100px;
+}
+
+.colaborador02 img {
+  position: relative;
+  width: 100%;
+}
+
+#diviser2 {
+  top: -16px;
+  width: 99.3%;
 }
 
 /* COLABORADORES ENDS */
 
 /* -- NAV 2 START -- */
-
-#nav_contain2 {
-  margin: 0;
+.menu2 {
+  position: relative;
+  top: 332px;
+  width: 100%;
+  height: 75px;
+  background-color: rgba(255, 0, 0, 0.6);
+  border-bottom: 10px solid black;
 }
 
-#nav2 {
-    border-bottom: 1px solid Dimgray;
+#nav2 a {
+  position: relative;
+  top: 7px;
+  left: 217px;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-weight: lighter;
 }
-
 
 #nav2 a:hover {
-    text-decoration-color: firebrick;
-}
-
-
-#nav_home2 {
-
-}
-
-#nav_edi2 {
-}
-
-#nav_sob2 {
-}
-
-#nav_cont2 {
-}
-
-#nav_colab2 {
-
+  color: white;
+  text-decoration: none;
 }
 
 /* -- NAV 2 END -- */
 
 /* -- FOOTER STARTS -- */
 
-#footer h6 {
-  margin-top: 50px;
-  margin-bottom: 50px;
+.footer-section {
+  position: relative;
+  top:332px;
+  width: 100%;
+  height: 123px;
+}
+
+.footer-text {
+  position: relative;
+  top: 46px;
+  left: 332px;
+  width: 50%;
+  height: 50px;
+}
+
+.footer-text h6 {
+  position: relative;
   text-align: center;
-  font-size: 12px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
   letter-spacing: -0.5px;
 }
 
-#footer a:hover {
-  color: DimGray;
+.footer-text a {
+  font-size: 16px;
+  color: black;
+}
+
+.footer-text a:hover {
+  font-size: 16px;
+  color: firebrick;
+  text-decoration: none;
 }
 
 /* -- FOOTER ENDS -- */
