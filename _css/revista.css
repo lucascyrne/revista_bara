@@ -1,0 +1,75 @@
+/* -- GENERAL -- */
+
+body, main {
+  margin: 0;
+  padding: 0;
+}
+
+/* MENU-SUPERIOR STARTS */
+
+.menu-superior {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: black; /* rgba(255, 0, 0, 0.6); */
+
+}
+
+#nav a {
+  position: relative;
+  top:15px;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-weight: lighter;
+}
+
+#nav a:hover {
+  color: Dimgray;
+  text-decoration: none;
+}
+
+/* MENU-SUPERIOR ENDS */
+
+/* REVISTA START */
+
+
+
+/* REVISTA ENDS */
+
+/* -- FOOTER STARTS -- */
+
+.footer-section {
+  position: relative;
+  width: 100%;
+  height: 123px;
+}
+
+.footer-text {
+  position: relative;
+  top: 46px;
+  left: 332px;
+  width: 50%;
+  height: 50px;
+}
+
+.footer-text h6 {
+  position: relative;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.5px;
+}
+
+.footer-text a {
+  font-size: 16px;
+  color: black;
+}
+
+.footer-text a:hover {
+  font-size: 16px;
+  color: firebrick;
+  text-decoration: none;
+}
+
+/* -- FOOTER ENDS -- */
