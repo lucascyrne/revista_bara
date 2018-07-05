@@ -14,7 +14,7 @@ body, main {
 }
 
 body, main, .container {
-  background-color: Ivory;
+  background-color: white;
 }
 
 
@@ -34,7 +34,7 @@ body, main, .container {
   width: 100%;
   height: 621px;
   opacity: 0.9;
-  background-color: #4C1919;
+  background-color: black;
 }
 
 /* FUNDO ENDS */
@@ -139,7 +139,7 @@ body, main, .container {
 .links-landing-page a:hover {
   color: black;
   text-decoration: none;
-  background-color: rgba(178, 35, 35, .5);
+  background-color: rgba(178, 35, 35, .7);
 }
 
 
@@ -174,7 +174,7 @@ body, main, .container {
   width: 12%;
   height: 434px;
   top: 0;
-  background-color: rgba(178, 35, 35, .2);
+  background-color: rgba(165, 165, 165, .3);
   z-index: 99;
   cursor: pointer;
 }
@@ -271,7 +271,7 @@ input[type="radio"] {
   max-height: 636px;
   height: 481px;
   left: -322px;
-  background-color: rgba(106, 25, 25, .9);
+  background-color: black;
 }
 
 .borda-esquerda img {
@@ -289,7 +289,7 @@ input[type="radio"] {
   width: 76.2%;
   height: 481px;
   background-color: white;
-  border-bottom: 20px solid rgba(106, 25, 25, .9);
+  border-bottom: 20px solid black;
 }
 
 .quote-text {
@@ -326,14 +326,14 @@ input[type="radio"] {
   left: 522px;
   width: 300px;
   height: 50px;
-  background-color: black;
+  background-color: rgba(106, 25, 25, .9);
 }
 
 .author-text h4 {
   position: relative;
   top: 5px;
   left: 90px;
-  color: white;
+  color: #CFC7B4;
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
 }
@@ -344,7 +344,7 @@ input[type="radio"] {
   left: 43px;
   z-index: 99;
   width: 15%;
-  border: 1.5px solid white;
+  border: 1.5px solid #CFC7B4;
 }
 
 
@@ -407,20 +407,20 @@ input[type="radio"] {
 }
 
 .continue-btn {
-  background-color: #4C1919;
+  background-color: black;
 }
 
 .continue-btn h5 {
-  color: #CFC7B4;
+  color: white;
   text-shadow: 1px 1px black;
 }
 
 .author {
-  background-color:black;
+  background-color:#4C1919;
 }
 
 .author h4 {
-  color: white;
+  color: #CFC7B4;
 }
 
 .text {
@@ -430,7 +430,7 @@ input[type="radio"] {
 .slash-revista {
   position: relative;
   width: 25px;
-  border: 1.5px solid white;
+  border: 1.5px solid #CFC7B4;
 }
 
 .maria-trindade-section {
@@ -1003,8 +1003,8 @@ input[type="radio"] {
   top: 0px;
   width: 100%;
   height: 554px;
-  background-color: #4C1919;
-  border-bottom: 20px solid #4C1919;
+  background-color: black;
+  border-bottom: 20px solid black;
 }
 
 .agenda-section {
@@ -1178,7 +1178,7 @@ input[type="radio"] {
   top: 0px;
   width: 100%;
   height: 435px;
-  border-bottom: 20px solid #4C1919;
+  border-bottom: 20px solid black;
 }
 
 .linha-esquerda hr {
@@ -1186,7 +1186,7 @@ input[type="radio"] {
   float: left;
   top: 50px;
   width: 5%;
-  border: 10px solid #4C1919;
+  border: 10px solid black;
 }
 
 .linha-direita hr {
@@ -1195,7 +1195,7 @@ input[type="radio"] {
   left: 730px;
   top: 50px;
   width: 44.4%;
-  border: 10px solid #4C1919;
+  border: 10px solid black;
 }
 
 .colaboradores-title {
@@ -1260,7 +1260,7 @@ input[type="radio"] {
   position: relative;
   width: 100%;
   height: 102px;
-  background-color: #4C1919;
+  background-color: black;
 
 }
 
@@ -1269,7 +1269,7 @@ input[type="radio"] {
   top: 15px;
   font-size: 18px;
   font-family: 'Oswald', sans-serif;
-  color: #CFC7B4;
+  color: white;
   font-weight: lighter;
 }
 
