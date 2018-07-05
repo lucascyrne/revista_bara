@@ -1,0 +1,264 @@
+/* VERTICAL 3 SECTION POST GRID */
+/* -- REVISTA STARTS -- */
+
+.linha-esquerda {
+  position: relative;
+  width: 60%;
+  top: 85px;
+  margin: 0;
+  border: 10px solid black;
+}
+
+.linha-direita {
+  position: relative;
+  width: 12%;
+  top: -90px;
+  left: 1168px;
+  margin: 0;
+  border: 10px solid black;
+}
+
+.revista-posts {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 1000px;
+}
+
+.revista-section-title {
+  position: relative;
+  top: -10px;
+  left: 815px;
+  width: 26%;
+  height: 160px;
+  background-color: white;
+}
+
+.revista-section-title h1 {
+  position: relative;
+  left: 15px;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 120px;
+
+}
+
+.revista-section-title a:hover {
+  text-decoration: none;
+}
+
+.revista-posts-inner {
+  position: relative;
+  width: 100%;
+  top: 160px;
+  height: auto;
+
+}
+
+.revista-posts a:hover {
+  text-decoration: none;
+}
+
+/* REVISTA AREA 01 STARTS */
+
+.revista-area01 {
+  position: relative;
+  float: left;
+  width: 32%;
+  height: 1100px;
+  background-color: rgba(255, 0, 0, 0.6);
+}
+
+.post-area01-img {
+  position: relative;
+  width: 100%;
+  max-height: 192px;
+}
+
+.post-title01-white {
+  position: relative;
+  top: 5px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+.post-text01-white {
+  position: relative;
+  top: 5px;
+  font-family: 'Inconsolata', monospace;
+  text-align: justify;
+  color: white;
+}
+
+.post-1 {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  width: 85%;
+  height: 333px;
+}
+
+.post-4 {
+  position: relative;
+  top: 50px;
+  left: 30px;
+  width: 85%;
+  height: 333px;
+}
+
+.post-7 {
+  position: relative;
+  top: 70px;
+  left: 30px;
+  width: 85%;
+  height: 333px;
+}
+
+/* REVISTA AREA 01 ENDS */
+
+/* REVISTA AREA 02 STARTS */
+
+.revista-area02 {
+  position: relative;
+  float; left;
+  left: 458px;
+  width: 32%;
+  height: 1100px;
+}
+
+.post02-img {
+  position: relative;
+  top: -1100px;
+  width: 100%;
+  max-height: 192px;
+}
+
+.post05-img {
+  position: relative;
+  top: -767px;
+  width: 100%;
+  max-height: 192px;
+}
+
+.post08-img {
+  position: relative;
+  top: -434px;
+  width: 100%;
+  max-height: 192px;
+}
+
+.post02-title {
+  position: relative;
+  text-align: justify;
+  top: -1093px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+.post02-text {
+  position: relative;
+  top: -1093px;
+  font-family: 'Inconsolata', monospace;
+  text-align: justify;
+  color: black;
+}
+
+.post05-title {
+  position: relative;
+  top: -760px;
+  text-align: justify;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+.post05-text {
+  position: relative;
+  top: -760px;
+  font-family: 'Inconsolata', monospace;
+  text-align: justify;
+  color: black;
+}
+
+.post08-title {
+  position: relative;
+  top: -427px;
+  text-align: justify;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+.post08-text {
+  position: relative;
+  top: -427px;
+  font-family: 'Inconsolata', monospace;
+  text-align: justify;
+  color: black;
+}
+
+.post-2 {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  width: 85%;
+  height: 333px;
+}
+
+.post-5 {
+  position: relative;
+  top: 50px;
+  left: 30px;
+  width: 85%;
+  height: 333px;
+}
+
+.post-8 {
+  position: relative;
+  top: 70px;
+  left: 30px;
+  width: 85%;
+  height: 333px;
+}
+
+/* REVISTA AREA 02 ENDS */
+
+/* REVISTA AREA 03 STARTS */
+
+.revista-area03 {
+  position: relative;
+  float: right;
+  top: -1100px;
+  width: 32%;
+  height: 1101px;
+  background-color: black;
+}
+
+.post-3 {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  width: 85%;
+  height: 333px;
+}
+
+.post-6 {
+  position: relative;
+  top: 50px;
+  left: 30px;
+  width: 85%;
+  height: 333px;
+}
+
+.post-9 {
+  position: relative;
+  top: 70px;
+  left: 30px;
+  width: 85%;
+  height: 333px;
+}
+
+#post09-img {
+  height: 192px;
+}
+
+/* REVISTA AREA 03 ENDS */
+/* VERTICAL 3 SECTION POST GRID */

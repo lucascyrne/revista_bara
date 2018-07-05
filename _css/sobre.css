@@ -1,26 +1,104 @@
 /* -- GENERAL -- */
 
+/*
+* colors:
+* #4C1919 - Bordô* - rgba(255, 0, 0, 0.6)
+* #BAA87C - Bege* - lighter => #CFC7B4
+*/
+
+.title {
+  position: relative;
+}
+
+.title h1 {
+  position: relative;
+  font-size: 32px;
+  font-family: 'Oswald', sans-serif;
+  color: #4C1919;
+  text-shadow: 2px 2px black;
+}
+
+.text {
+  position: relative;
+}
+
+#quote {
+  text-align: center;
+  font-weight: lighter;
+}
+
+.text p {
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-weight: normal;
+}
+
+.author {
+
+}
+
+.author h2 {
+  position: relative;
+  color: #4C1919;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.slash-revista {
+  position: relative;
+  top: 65px;
+  left: 70px;
+  width: 5%;
+  border: 4px solid #4C1919;
+}
+
+.continue-btn {
+  background-color: #4C1919;
+}
+
+.continue-btn h5 {
+  position: relative;
+  top: 15px;
+  left: 80px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 2px 2px black;
+}
+
 body, main {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
 }
 
-/* MENU-SUPERIOR STARTS */
+.container {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 75%;
+  height: 900px;
+  background-color: white;
+}
+
+/* MENU STARTS */
 
 .menu-superior {
   position: relative;
   width: 100%;
-  height: 80px;
-  background-color: black; /* rgba(255, 0, 0, 0.6); */
-
+  height: 50px;
+  text-align: center;
+  background-color: #4C1919;
+  border-bottom: 2px solid black;
 }
 
 #nav a {
-  position: relative;
-  top:15px;
   font-size: 20px;
   font-family: 'Oswald', sans-serif;
-  color: white;
+  color:  white;
   font-weight: lighter;
 }
 
@@ -29,20 +107,43 @@ body, main {
   text-decoration: none;
 }
 
-/* MENU-SUPERIOR ENDS */
+/* MENU ENDS */
 
-/* REVISTA START */
+/* SOBRE STARTS  */
+
+.sobre-logo {
+  position: relative;
+  left: 250px;
+  width: 50%;
+  height: auto;
+}
+
+.sobre-logo img {
+  width: 100%;
+}
+
+.sobre-text {
+  position: relative;
+  width: 80%;
+  top: 30px;
+  left: 100px;
+}
+
+.sobre-text p {
+  text-align: justify;
+}
 
 
-
-/* REVISTA ENDS */
+/*  SOBRE ENDS  */
 
 /* -- FOOTER STARTS -- */
 
 .footer-section {
-  position: relative;
+  position: absolute;
   width: 100%;
-  height: 123px;
+  height: 162px;
+  border-top: 2px solid black;
+  background-color: #4C1919;
 }
 
 .footer-text {
@@ -59,11 +160,13 @@ body, main {
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   letter-spacing: -0.5px;
+  color: #CFC7B4;
+  text-shadow: 2px 2px black;
 }
 
 .footer-text a {
   font-size: 16px;
-  color: black;
+  color: #CFC7B4;
 }
 
 .footer-text a:hover {

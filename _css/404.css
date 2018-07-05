@@ -1,0 +1,32 @@
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  letter-spacing: -0.5px;
+  color: #4C1919;
+  text-shadow: 2px 2px black;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+h6 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.5px;
+  color: black;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.error404 {
+  position: relative;
+  width: 70%;
+  height: auto;
+  top: 100px;
+  left: 200px;
+}

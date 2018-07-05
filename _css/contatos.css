@@ -1,26 +1,33 @@
 /* -- GENERAL -- */
 
+/*
+* colors:
+* #4C1919 - Bordô* - rgba(255, 0, 0, 0.6)
+* #BAA87C - Bege* - lighter => #CFC7B4
+*/
+
 body, main {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
-/* MENU-SUPERIOR STARTS */
+/* MENU STARTS */
 
 .menu-superior {
   position: relative;
   width: 100%;
-  height: 80px;
-  background-color: black; /* rgba(255, 0, 0, 0.6); */
-
+  height: 50px;
+  text-align: center;
+  background-color: #4C1919;
+  border-bottom: 2px solid black;
 }
 
 #nav a {
-  position: relative;
-  top:15px;
   font-size: 20px;
   font-family: 'Oswald', sans-serif;
-  color: white;
+  color:  #CFC7B4;
   font-weight: lighter;
 }
 
@@ -29,20 +36,17 @@ body, main {
   text-decoration: none;
 }
 
-/* MENU-SUPERIOR ENDS */
-
-/* REVISTA START */
-
-
-
-/* REVISTA ENDS */
+/* MENU ENDS */
 
 /* -- FOOTER STARTS -- */
 
 .footer-section {
-  position: relative;
+  position: absolute;
+  top: 1000px;
   width: 100%;
-  height: 123px;
+  height: 162px;
+  border-top: 2px solid black;
+  background-color: #4C1919;
 }
 
 .footer-text {
@@ -59,11 +63,13 @@ body, main {
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   letter-spacing: -0.5px;
+  color: #CFC7B4;
+  text-shadow: 2px 2px black;
 }
 
 .footer-text a {
   font-size: 16px;
-  color: black;
+  color: #CFC7B4;
 }
 
 .footer-text a:hover {

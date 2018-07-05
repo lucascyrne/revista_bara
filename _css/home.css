@@ -1,14 +1,26 @@
 /* -- GENERAL -- */
 
+/*
+* colors:
+* #4C1919 - Bordô* -  rgba(178, 35, 35, .5)
+* #BAA87C - Bege* - lighter => #CFC7B4
+*/
+
 body, main {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: auto;
 }
+
+body, main, .container {
+  background-color: Ivory;
+}
+
 
 /* LANDPAGE */
 
 .landing-page {
-  position: flex;
 
 }
 
@@ -18,11 +30,11 @@ body, main {
   position: relative;
   z-index: 0;
   display: block;
-  max-height: 632px;
+  max-height: 621px;
   width: 100%;
-  height: 632px;
+  height: 621px;
   opacity: 0.9;
-  background-color: black;
+  background-color: #4C1919;
 }
 
 /* FUNDO ENDS */
@@ -31,13 +43,13 @@ body, main {
 
 .menu {
   position: relative;
-  width: 50%;
-  top: 20px;
-  left: 400px;
+  width: 65%;
+  top: 25px;
+  left: 350px;
 }
 
 #nav a {
-  font-size: 14px;
+  font-size: 15px;
   font-family: 'Oswald', sans-serif;
   color: white;
   font-weight: lighter;
@@ -55,23 +67,23 @@ body, main {
 .social-links {
   position: relative;
   float: right;
-  left: -30px;
-  top: -20px;
+  left: -70px;
+  top: -10px;
 }
 
 .instagram-logo {
- position: relative;
- width: 50px;
- height: 25px;
- top: 120px;
+ position: absolute;
+ top: -1px;
+ left: -60px;
+ width: 55px;
+ height: 40px;
 }
 
 .facebook-logo {
-  position: relative;
-  left: 43px;
-  top: 70px;
-  width: 30px;
-  height: 25px;
+  position: absolute;
+  left: -90px;
+  width: 35px;
+  height: 30px;
 }
 
 /* SOCIAL LINKS ENDS */
@@ -81,75 +93,130 @@ body, main {
 .area01 {
   position: relative;
   float: left;
-  z-index: 1;
-  top: -56px;
-  max-height: 650px;
+  z-index: 99;
+  top: -40px;
+  left: -944px;
+  max-height: 625px;
   max-width: 320px;
-  height: 650px;
+  height: 625px;
   width: 320px;
   background-color: white;
 }
 
+.logo-landing-page {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  max-width: 90%;
+  width: 90%;
+}
+
 #logo-area01 {
   position: relative;
-  left: 50px;
-  top: 40px;
-  max-width: 200px;
-  width: 200px;
+  top: -20px;
+  left: 15px;
+  width: 100%;
 }
 
 .links-landing-page {
-  position: relative;
-  left: 57px;
-  top:75px;
-  max-width: 200px;
-  max-height: 310px;
+  position: absolute;
+  left: 40px;
+  top:230px;
+  max-width: 245px;
+  max-height: 400px;
   overflow: hidden;
 }
 
 .links-landing-page a {
   color: black;
+  text-align: justify;
   font-family: 'Oswald', sans-serif;
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 18px;
-  padding: 5px;
+  padding: 3px;
 }
 
 .links-landing-page a:hover {
   color: black;
   text-decoration: none;
-  background-color: rgba(255, 0, 0, 0.6);
+  background-color: rgba(178, 35, 35, .5);
 }
+
 
 /* AREA01 ENDS */
 
 /* CAROUSEL STARTS */
 
-.slide-inicial {
+.slider-section {
   position: relative;
-  z-index: 0;
-  top: -320px;
+  float: left;
+  top: 30px;
   left: 320px;
-  max-width: 940px;
-  max-height: 450px;
-  width: 940px;
-  height: 450px;
-  overflow: hidden;
+  width: 70%;
+  height: 70%;
 }
 
-#carousel,
-.carousel,
-.carousel-inner,
-.carousel-item {position: relative; z-index: -1;}
-
-.c-img img {
-  position: relative;
-  z-index: 0;
-  max-width: 100%;
+.slide-img {
+  position: absolute;
   width: 100%;
-  height: 450px;
+  height: 100%;
+  z-index: -1;
+  cursor: pointer;
 }
 
+.slide-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.pre, .nxt {
+  position: absolute;
+  width: 12%;
+  height: 434px;
+  top: 0;
+  background-color: rgba(178, 35, 35, .2);
+  z-index: 99;
+  cursor: pointer;
+}
+.pre {
+  left: 0;
+}
+
+.nxt {
+  right: 0;
+}
+
+.nav-btns {
+  position: absolute;
+  text-align: center;
+  z-index: 99;
+  display: inline-block;
+}
+
+.dots {
+  position: relative;
+  left: 150px;
+  border-radius: 50%;
+}
+
+input[type="radio"] {
+  position: relative;
+  z-index: 99;
+  top: 425px;
+  left: 490px;
+}
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three {
+  z-index: 9;
+}
+
+#i1:checked ~ .nav #dot1,
+#i2:checked ~ .nav #dot2,
+#i3:checked ~ .nav #dot3 {
+  background: #fff;
+}
 
 /* CAROUSEL ENDS */
 
@@ -157,9 +224,9 @@ body, main {
 
 .area02 {
   position: relative;
-  z-index: 1;
-  left: 949px;
-  top: -368px;
+  z-index: 99;
+  top: -200px;
+  left: 900px;
   height: 120px;
   max-width: 400px;
   width: 400px;
@@ -168,19 +235,28 @@ body, main {
 }
 
 .area02-inner h1 {
-  position: relative;
-  top: 45px;
-  left: 40px;
+  position: absolute;
+  top: 30px;
+  left: 60px;
   font-family: 'Oswald', sans-serif;
   text-align: left;
   color: black;
-  font-size: 20px;
+  font-size: 40px;
+  text-shadow: 1.5px 1.5px #4C1919;
+}
+
+.area02-inner a {
+  text-decoration: none;
+}
+
+.area02-inner a:hover {
+  text-decoration: none;
 }
 
 .flecha {
-  position: relative;
-  left: 250px;
-  top: -8px;
+  position: absolute;
+  top: 20px;
+  left: 280px;
   width: 70px;
   transform: rotate(180deg);
 }
@@ -191,83 +267,91 @@ body, main {
 
 .borda-esquerda {
   position: relative;
-  width: 31.4%;
+  width: 31.3%;
   max-height: 636px;
-  height: 636px;
+  height: 481px;
   left: -322px;
-  background-color: black;
-  opacity: 0.9;
+  background-color: rgba(106, 25, 25, .9);
 }
 
 .borda-esquerda img {
-  position: relative;
-  top: 250px;
+  position: absolute;
+  top: 60px;
   left: 160px;
   width: 50%;
   height: 220px;
-
 }
 
 .quote {
   position: relative;
-  left: 319px;
+  left: 320px;
   max-height: 636px;
-  width: 76.40%;
-  height: 636px;
-  background-color: rgba(255, 0, 0, 0.6);
+  width: 76.2%;
+  height: 481px;
+  background-color: white;
+  border-bottom: 20px solid rgba(106, 25, 25, .9);
 }
 
 .quote-text {
-  position: relative;
-  top: -290px;
+  position: absolute;
+  top: 20px;
   left: 25px;
-  width: 60.5%;
-  height: 200px;
+  width: 80%;
+  height: 420px;
   text-align: justify;
 }
 
 .quote-text h3 {
   font-family: 'Libre Baskerville', serif;
-  font-size: 28px;
   font-style: italic;
   color: black;
+  text-shadow: 0.5px 0.5px black;
+}
+
+#qt-text01 {
+  font-size: 18px;
+
+}
+
+#qt-text02 {
+  font-size: 20px;
 }
 
 .quote-text a:hover {
   text-decoration: none;
 }
 
+.author-text {
+  position: absolute;
+  left: 522px;
+  width: 300px;
+  height: 50px;
+  background-color: black;
+}
+
 .author-text h4 {
   position: relative;
-  width: 250px;
-  left: 440px;
-  top: -25px;
-  color: black;
+  top: 5px;
+  left: 90px;
+  color: white;
   font-family: 'Oswald', sans-serif;
-
+  font-size: 30px;
 }
 
 #author-slash {
-  position: relative;
-  top: 8px;
-  left: 80px;
-  width: 10%;
-  border: 1.5px solid black;
+  position: absolute;
+  top: 10px;
+  left: 43px;
+  z-index: 99;
+  width: 15%;
+  border: 1.5px solid white;
 }
 
-.quote-img img {
-  position: relative;
-  top: -750px;
-  left: -124px;
-  width: 73%;
-  height: 230px;
-  border: 5px solid black;
-}
 
 #quotes-black {
-  position: relative;
-  top: -715px;
-  left: 680px;
+  position: absolute;
+  top:  115px;
+  left: 875px;
   width: 13%;
   height: 130px;
   transform: rotate(180deg);
@@ -275,402 +359,766 @@ body, main {
 
 #section-quote-name {
   position: relative;
-  top: -1109px;
-  left: 830px;
-  width: 15%;
-  height: 232px;
-  background-color: black;
+  top: -185px;
+  left: -335px;
+  width: 25%;
+  height: 115px;
 }
 
-.vertical-text {
-  position: relative;
+.quotes-title {
+  position: absolute;
   top: 30px;
   left: 45px;
-  writing-mode: vertical-rl;
-  text-orientation: upright;
   font-family: 'Oswald', sans-serif;
-  font-size: 20px;
-  color: white;
+  letter-spacing: 10px;
+  font-size: 70px;
+  color: #CFC7B4;
+  text-shadow: 3px 3px black;
 }
 
 /* -- QUOTE ENDS -- */
 
 /* -- REVISTA STARTS -- */
 
-.linha-superior {
-  position: relative;
-  width: 80%;
-  top: 50px;
-  left: 140px;
-  margin: 0;
-  border: 1px solid black;
-}
-
 .revista-posts {
   position: relative;
-  display: block;
   width: 100%;
-  height: 1000px;
-}
-
-.revista-section-title {
-  position: relative;
-  top: 100px;
-  left: 585px;
-  width: 20%;
-  height: 50px;
-}
-
-.revista-section-title h1 {
-  color: black;
-  font-family: 'Libre Baskerville', serif;
-  font-size: 50px;
-
+  height: auto;
 }
 
 .revista-section-title a:hover {
   text-decoration: none;
 }
 
-#seta {
-  position: relative;
-  top: 1.5px;
-}
-
-.revista-posts-inner {
-  position: relative;
-  width: 100%;
-  top: 160px;
-  height: auto;
-
-}
-
 .revista-posts a:hover {
   text-decoration: none;
 }
 
-/* REVISTA AREA 01 STARTS */
+/* REVISTA-INNER STARTS */
 
-.revista-area01 {
+.revista-posts-inner {
+  position: relative;
+  z-index: 0;
+  top: 20px;
+  width: 100%;
+  height: 1330px;
+  border-bottom: 20px solid #4C1919;
+  background-color: white;
+}
+
+.continue-btn {
+  background-color: #4C1919;
+}
+
+.continue-btn h5 {
+  color: #CFC7B4;
+  text-shadow: 1px 1px black;
+}
+
+.author {
+  background-color:black;
+}
+
+.author h4 {
+  color: white;
+}
+
+.text {
+  background-color: #CFC7B4;
+}
+
+.slash-revista {
+  position: relative;
+  width: 25px;
+  border: 1.5px solid white;
+}
+
+.maria-trindade-section {
   position: relative;
   float: left;
-  width: 32%;
-  height: 1100px;
-  background-color: rgba(255, 0, 0, 0.6);
+  top: 0px;
+  left: 15px;
+  width: 51.1%;
+  height: 570px;
+  background-color: #4C1919;
 }
 
-.post-area01-img {
+.maria-trindade-img {
+  position: absolute;
+  border: 1px solid black;
+}
+
+.maria-trindade-img img {
   position: relative;
   width: 100%;
-  max-height: 192px;
+  height: auto;
 }
 
-.post-title01-white {
-  position: relative;
-  top: 5px;
+.maria-trindade-title {
+  position: absolute;
+  top: 437px;
+  left: 15px;
+  width: 100%;
+}
+
+.maria-trindade-title h1 {
+  color: #CFC7B4;
+  font-size: 120px;
+  text-align: justify;
+  letter-spacing: 4px;
   font-family: 'Oswald', sans-serif;
+  text-shadow: 3px 3px black;
+}
+
+.maria-trindade-author {
+  position: absolute;
+  top: 570px;
+  left: 155px;
+  width: 40%;
+  height: 40px;
+  text-align: center;
+}
+
+.maria-trindade-author h4 {
+  position: relative;
+  top: -33px;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#maria-trindade-slash {
+  top: 3px;
+  left: -110px;
   color: white;
 }
 
-.post-text01-white {
-  position: relative;
-  top: 5px;
-  font-family: 'Inconsolata', monospace;
-  text-align: justify;
-  color: white;
-}
-
-.post-1 {
-  position: relative;
-  top: 30px;
-  left: 30px;
-  width: 85%;
-  height: 333px;
-}
-
-.post-4 {
-  position: relative;
-  top: 50px;
-  left: 30px;
-  width: 85%;
-  height: 333px;
-}
-
-.post-7 {
-  position: relative;
-  top: 70px;
-  left: 30px;
-  width: 85%;
-  height: 333px;
-}
-
-/* REVISTA AREA 01 ENDS */
-
-/* REVISTA AREA 02 STARTS */
-
-.revista-area02 {
-  position: relative;
-  float; left;
-  left: 458px;
-  width: 32%;
-  height: 1100px;
-}
-
-.post02-img {
-  position: relative;
-  top: -1100px;
-  width: 100%;
-  max-height: 192px;
-}
-
-.post05-img {
-  position: relative;
-  top: -767px;
-  width: 100%;
-  max-height: 192px;
-}
-
-.post08-img {
-  position: relative;
-  top: -434px;
-  width: 100%;
-  max-height: 192px;
-}
-
-.post02-title {
-  position: relative;
-  text-align: justify;
-  top: -1093px;
-  font-family: 'Oswald', sans-serif;
-  color: black;
-}
-
-.post02-text {
-  position: relative;
-  top: -1093px;
-  font-family: 'Inconsolata', monospace;
-  text-align: justify;
-  color: black;
-}
-
-.post05-title {
-  position: relative;
-  top: -760px;
-  text-align: justify;
-  font-family: 'Oswald', sans-serif;
-  color: black;
-}
-
-.post05-text {
-  position: relative;
-  top: -760px;
-  font-family: 'Inconsolata', monospace;
-  text-align: justify;
-  color: black;
-}
-
-.post08-title {
-  position: relative;
-  top: -427px;
-  text-align: justify;
-  font-family: 'Oswald', sans-serif;
-  color: black;
-}
-
-.post08-text {
-  position: relative;
-  top: -427px;
-  font-family: 'Inconsolata', monospace;
-  text-align: justify;
-  color: black;
-}
-
-.post-2 {
-  position: relative;
-  top: 30px;
-  left: 30px;
-  width: 85%;
-  height: 333px;
-}
-
-.post-5 {
-  position: relative;
-  top: 50px;
-  left: 30px;
-  width: 85%;
-  height: 333px;
-}
-
-.post-8 {
-  position: relative;
-  top: 70px;
-  left: 30px;
-  width: 85%;
-  height: 333px;
-}
-
-/* REVISTA AREA 02 ENDS */
-
-/* REVISTA AREA 03 STARTS */
-
-.revista-area03 {
+.bru-pereira-section {
   position: relative;
   float: right;
-  top: -1100px;
-  width: 32%;
-  height: 1101px;
-  background-color: black;
+  top: -15px;
+  left: -20px;
+  width: 45%;
+  height: 300px;
 }
 
-.post-3 {
+.bru-pereira-title {
+  position: absolute;
+  width: 50%;
+  text-align: right;
+}
+
+.bru-pereira-title h1 {
   position: relative;
-  top: 30px;
-  left: 30px;
-  width: 85%;
-  height: 333px;
+  top: -20px;
+  left: -15px;
+  font-size: 140px;
+  font-family: 'Oswald', sans-serif;
+  color: #4C1919;
+  text-shadow: 3px 3px black;
 }
 
-.post-6 {
+.bru-pereira-author {
+  position: absolute;
+  top: 90px;
+  left: 405px;
+  width: 30%;
+  height: 40px;
+}
+
+#bru-pereira-slash {
+  top: 5px;
+  left: -50px;
+}
+
+.bru-pereira-author h4 {
   position: relative;
-  top: 50px;
-  left: 30px;
-  width: 85%;
-  height: 333px;
+  top: -30px;
+  left: 60px;
+  font-size: 28px;
+  font-family: 'Oswald', sans-serif;
 }
 
-.post-9 {
+.bru-pereira-text {
+  position: absolute;
+  top: 140px;
+  left: 10px;
+  width: 95%;
+  max-height: 300px;
+  height: 130px;
+  padding: 5px 10px;
+  text-align: justify;
+}
+
+.bru-pereira-text p {
+  font-size: 19px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+.bru-pereira-continue {
+  position: absolute;
+  top: 240px;
+  left: 314px;
+  width: 45%;
+  height: 40px;
+}
+
+.bru-pereira-continue h5 {
   position: relative;
-  top: 70px;
-  left: 30px;
-  width: 85%;
-  height: 333px;
+  top: 7px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
 }
 
-#post09-img {
-  height: 192px;
+.carol-do-vale-section {
+  position: relative;
+  float: right;
+  left: -40px;
+  width: 43%;
+  height: 280px;
 }
 
-/* REVISTA AREA 03 ENDS */
+.carol-do-vale-title {
+  position: absolute;
+  width: 100%;
+  height: 160px;
+}
+
+.carol-do-vale-title h1 {
+  text-align: right;
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  color: #4C1919;
+  text-shadow: 1.5px 1.5px black;
+}
+
+.carol-do-vale-author {
+  position: absolute;
+  top: 55px;
+  left: 25px;
+  width: 30%;
+  height: 40px;
+}
+
+#carol-do-vale-slash {
+  top: 3px;
+  left: -60px;
+}
+
+.carol-do-vale-author h4 {
+  position: relative;
+  top: -30px;
+  left: 45px;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.carol-do-vale-text {
+  position: absolute;
+  top: 105px;
+  width: 100%;
+  height: 150px;
+  padding: 5px 10px;
+}
+
+.carol-do-vale-text p {
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+.carol-do-vale-continue {
+  position: absolute;
+  top: 232px;
+  left: 302px;
+  width: 48%;
+  height: 40px;
+}
+
+.carol-do-vale-continue h5 {
+  position: relative;
+  text-align: center;
+  top: 7px;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.bruna-gomes-section {
+  position: relative;
+  float: right;
+  top: 10px;
+  left: 540px;
+  width: 43.2%;
+  height: 650px;
+}
+
+.bruna-gomes-imgs {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  height: 430px;
+}
+
+.bruna-gomes-img1 {
+  position: absolute;
+  float: left;
+  top: 0px;
+  width: 47%;
+  height: auto;
+}
+
+
+.bruna-gomes-img1 img {
+  position: relative;
+  top: 10px;
+  width: 100%;
+  height: auto;
+  border: 4px solid #4C1919;
+}
+
+.bruna-gomes-title01 {
+  position: absolute;
+  float: left;
+  top: 15px;
+  left: 300px;
+  width: 44%;
+  height: 150px;
+}
+
+.bruna-gomes-title01 h1 {
+  position: relative;
+  text-align: center;
+  font-size: 110px;
+  font-family: 'Oswald', sans-serif;
+  color: #4C1919;
+}
+
+.bruna-gomes-img2 {
+  position: absolute;
+  float: right;
+  top: 150px;
+  left: 295px;
+  width: 47%;
+  height: auto;
+}
+
+.bruna-gomes-img2 img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border: 4px solid #4C1919;
+}
+
+.bruna-gomes-title02 {
+  position: absolute;
+  float: left;
+  top: 342px;
+  left: 288px;
+  width: 49%;
+  height: 110px;
+}
+
+.bruna-gomes-title02 h1 {
+  position: relative;
+  left: 5px;
+  text-align: left;
+  font-size: 98px;
+  word-spacing: -9px;
+  font-family: 'Oswald', sans-serif;
+  color: #4C1919;
+}
+
+.bruna-gomes-img3 {
+  position: absolute;
+  float: left;
+  top: 280px;
+  width: 47%;
+  height: auto;
+}
+
+.bruna-gomes-img3 img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border: 4px solid #4C1919;
+}
+
+.bruna-gomes-text {
+  position: absolute;
+  top: 470px;
+  width: 100%;
+  height: 120px;
+  padding: 5px 10px;
+}
+
+.bruna-gomes-text p {
+  position: relative;
+  text-align: justify;
+  font-size: 19px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+.bruna-gomes-author {
+  position: absolute;
+  float: right;
+  top: 570px;
+  left: 350px;
+  width: 40%;
+  height: 40px;
+}
+
+#bruna-gomes-slash {
+    top: 2px;
+    left: -60px;
+    border: 1.5px solid white;
+}
+
+.bruna-gomes-author h4 {
+  position: relative;
+  top: -28px;
+  left: -10px;
+  text-align: right;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.bruna-gomes-continue {
+  position: absolute;
+  top: 620px;
+  width: 100%;
+  height: 60px;
+}
+
+.bruna-gomes-continue h5 {
+  position: relative;
+  text-align: center;
+  top: 12px;
+  left: 55;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 2px 2px black;
+}
+
+.bruna-diniz-section {
+  position: relative;
+  float: left;
+  top: -570px;
+  left: 15px;
+  width: 24%;
+  height: 520px;
+}
+
+.bruna-diniz-author {
+  position: relative;
+  float: right;
+  top: -30px;
+  width: 60%;
+  height: 40px;
+}
+
+.bruna-diniz-author h4 {
+  position: relative;
+  top: -28px;
+  left: -10px;
+  text-align: right;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#bruna-diniz-slash {
+  top: 2px;
+  left: -10px;
+  border: 1.5px solid white;
+}
+
+.bruna-diniz-text {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: #CFC7B4;
+  padding: 5px 10px;
+}
+
+.bruna-diniz-text p {
+  position: relative;
+  text-align: justify;
+  font-size: 19px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+.bruna-diniz-continue {
+  position: relative;
+  top: 20px;
+  width: 100%;
+  height: 60px;
+}
+
+.bruna-diniz-continue h5 {
+  position: relative;
+  top: 5px;
+  left: 100px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.bruno-caldeira-section {
+  position: relative;
+  float: left;
+  top: -570px;
+  left: 45px;
+  width: 24%;
+  height: 450px;
+}
+
+.bruno-caldeira-title {
+  position: relative;
+  width: 100%;
+  height: 40px;
+}
+
+.bruno-caldeira-title h4 {
+  position: relative;
+  top: -5px;
+  text-align: left;
+  font-size: 22px;
+  font-family: 'Oswald', sans-serif;
+  color: #4C1919;
+}
+
+.bruno-caldeira-author {
+  position: relative;
+  float: right;
+  top: -30px;
+  width: 60%;
+  height: 40px;
+}
+
+.bruno-caldeira-author h4 {
+  position: relative;
+  top: -26px;
+  left: -10px;
+  text-align: right;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#bruno-caldeira-slash {
+  top: 5px;
+  left: -35px;
+  border: 1.5px solid white;
+}
+
+.bruno-caldeira-text {
+  position: relative;
+  top: -10px;
+  width: 100%;
+  height: 359px;
+  background-color: #CFC7B4;
+  padding: 5px 10px;
+}
+
+.bruno-caldeira-text p {
+  position: relative;
+  text-align: justify;
+  font-size: 19px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+.bruno-caldeira-continue {
+  position: relative;
+  top: 21px;
+  width: 100%;
+  height: 60px;
+}
+
+.bruno-caldeira-continue h5 {
+  position: relative;
+  top: 5px;
+  left: 100px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.edicao1 {
+  position: relative;
+  float: left;
+  top: -80px;
+  left: -633px;
+  width: 50.3%;
+  height: 140px;
+}
+
+.revista-link {
+  position: relative;
+  float: left;
+  width: 48%;
+  height: 100%;
+  background-color: #4C1919;
+}
+
+.revista-link h1 {
+  position: relative;
+  top: 20px;
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Oswald', sans-serif;
+  color: #CFC7B4;
+  text-shadow: 3px 3px black;
+}
+
+.edicao-link {
+  position: relative;
+  float: right;
+  width: 48%;
+  height: 100%;
+  background-color: #4C1919;
+}
+
+.edicao-link h1 {
+  position: relative;
+  top: 20px;
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Oswald', sans-serif;
+  color: #CFC7B4;
+  text-shadow: 3px 3px black;
+}
+
+
+/* REVISTA-INNER ENDS */
+
 /* -- REVISTA ENDS -- */
 
 /* -- SOBRE STARTS -- */
 
 .events-section {
   position: relative;
-  top: 312px;
+  top: 0px;
   width: 100%;
-  height: 634px;
+  height: 554px;
+  background-color: #4C1919;
+  border-bottom: 20px solid #4C1919;
 }
 
 .agenda-section {
-  position: relative;
+  position: absolute;
+  top: 20px;
   width: 68%;
-  height: 634px;
-  background-color: black;
+  height: 534px;
+  z-index: 99;
 }
 
 #fundo-agenda-title {
-  position: relative;
-  top: 30px;
-  left: 70px;
-  width: 9%;
-  height: 280px;
-  background-color: white;
-  border-radius: 3px;
+  position: absolute;
+  left: 50px;
+  width: 50%;
+  height: 150px;
 }
 
 #agenda-title {
-  position: relative;
-  top: -137px;
-  left: 5px;
-  writing-mode: vertical-rl;
-  text-orientation: upright;
+  position: absolute;
   font-family: 'Oswald', sans-serif;
-  font-size: 26px;
-  color: black;
+  font-size: 90px;
+  letter-spacing: 5px;
+  font-weight: normal;
+  color: #CFC7B4;
+  text-shadow: 2.5px 2.5px black;
 }
 
 .calendario {
-  position: relative;
-  top: -270px;
-  left: 210px;
+  position: absolute;
+  top: 25px;
+  left: 430px;
 }
 
-.agenda-text {
-  position: relative;
-  top: -245px;
-  left: 70px;
-  width: 81%;
-  height: 250px;
+.agenda-text-01 {
+  position: absolute;
+  float: left;
+  top: 120px;
+  left: 15px;
+  width: 42%;
+  height: 155px;
 }
 
-.agenda-text a:hover {
+.agenda-text-02 {
+  position: absolute;
+  float: left;
+  top: 300px;
+  left: 15px;
+  width: 89%;
+  height: 200px;
+}
+
+.agenda-text-01 a:hover, .agenda-text-02 a:hover {
   text-decoration: none;
 }
 
-.agenda-text h2:hover {
+.agenda-text-01 h2:hover, .agenda-text-02 h2:hover {
   color: Dimgray;
 }
 
-.agenda-text p:hover {
+.agenda-text-01 p:hover, .agenda-text-02 p:hover {
   color: Dimgray;
 }
 
-.agenda-text h2 {
+.agenda-text-01 h2, .agenda-text-02 h2 {
   position: relative;
   top: 5px;
   left: 5px;
-  text-align: justify;
+  text-align: left;
   font-family: 'Oswald', sans-serif;
   color: white;
-  font-size: 22px;
+  font-size: 28px;
+  text-shadow: 2px 2px black;
 }
 
-.agenda-text p {
+.agenda-text-01 p, .agenda-text-02 p {
   position: relative;
   top: 5px;
   left: 5px;
-  text-align: justify;
+  text-align: left;
   font-family: 'Oswald', sans-serif;
   color: white;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .newsletter-section {
-  position: relative;
-  top: -633px;
-  left: 917px;
+  position: absolute;
+  float:right;
+  top: 45px;
+  left: 880px;
   width: 32%;
-  height: 634px;
+  height: 460px;
+  background-color: white;
 }
 
 .logo02-area {
-  position: relative;
-  top: 15px;
+  position: absolute;
   width: 100%;
-  height: 285px;
+  height: 240px;
 }
 
 .logo02-img {
-  position: relative;
+  position: absolute;
+  top: -25px;
   left: 50px;
   width: 80%;
   height: auto;
 }
 
-.newsletter-divise {
-  position: relative;
-  left: 5px;
-  width: 50%;
-  border: 5px solid black;
-}
-
 .newsletter-title {
-  position: relative;
-  top: 25px;
-  left: 35px;
+  position:absolute;
+  top: 250px;
+  left: 25px;
   width: 90%;
-  height: 350px;
+  height: 50px;
 }
 
 .newsletter-title h2 {
@@ -684,14 +1132,17 @@ body, main {
 }
 
 .newsletter {
-  position: relative;
-  top: -120px;
+  position: absolute;
+  top: 305px;
   left: 25px;
   width: 90%;
+  height: 150px;
 }
 
 .email-box {
-  position: relative;
+  position: absolute;
+  top: -290px;
+  left: -10px;
   width: 100%;
   height: 65px;
   background-color: white;
@@ -699,15 +1150,15 @@ body, main {
 }
 
 ::-moz-placeholder {
-  font-size: 22px;
+  font-size: 18px;
   font-family: 'Inconsolata', monospace;
   color: black;
 }
 
 .submit-box {
-  position: relative;
-  top: 20px;
-  left: 130px;
+  position: absolute;
+  top: -225px;
+  left: 115px;
   width: 25%;
   height: 50px;
   border: 0px solid black;
@@ -724,39 +1175,49 @@ body, main {
 
 .colaboradores-section {
   position: relative;
-  top: 296px;
+  top: 0px;
   width: 100%;
-  height: 400px;
-  background-color: white;
+  height: 435px;
+  border-bottom: 20px solid #4C1919;
 }
 
-.diviser {
-  position: relative;
-  width: 75%;
-  top: 60px;
-  border: 5px solid black;
+.linha-esquerda hr {
+  position: absolute;
+  float: left;
+  top: 50px;
+  width: 5%;
+  border: 10px solid #4C1919;
+}
+
+.linha-direita hr {
+  position: absolute;
+  float: right;
+  left: 730px;
+  top: 50px;
+  width: 44.4%;
+  border: 10px solid #4C1919;
 }
 
 .colaboradores-title {
-  position: relative;
-  top: -10px;
-  left: 250px;
-  width: 35%;
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  width: 60%;
   height: 100px;
-  background-color: white;
 }
 
 .colaboradores-title h1 {
   position: relative;
-  top: 15px;
   text-align: center;
-  font-size: 50px;
+  font-size: 75px;
   font-style: 'Oswald', sans-serif;
   color: black;
+  text-shadow: 3px 3px #4C1919;
 }
 
 .colaboradores-img-section {
   position: relative;
+  top: 115px;
   width: 100%;
   height: 300px;
 }
@@ -764,7 +1225,7 @@ body, main {
 .colaborador01 {
   position: relative;
   top: 100px;
-  left: 350px;
+  left: 400px;
   width: 20%;
   height: 100px;
 }
@@ -786,30 +1247,29 @@ body, main {
   width: 100%;
 }
 
-#diviser2 {
-  top: -16px;
-  width: 99.3%;
-}
-
 /* COLABORADORES ENDS */
 
 /* -- NAV 2 START -- */
 .menu2 {
-  position: relative;
-  top: 332px;
+  display: inline-block;
   width: 100%;
-  height: 75px;
-  background-color: rgba(255, 0, 0, 0.6);
-  border-bottom: 10px solid black;
+  height: 100px;
+}
+
+.nav-scroller2 {
+  position: relative;
+  width: 100%;
+  height: 102px;
+  background-color: #4C1919;
+
 }
 
 #nav2 a {
   position: relative;
-  top: 7px;
-  left: 217px;
-  font-size: 20px;
+  top: 15px;
+  font-size: 18px;
   font-family: 'Oswald', sans-serif;
-  color: black;
+  color: #CFC7B4;
   font-weight: lighter;
 }
 
@@ -823,10 +1283,10 @@ body, main {
 /* -- FOOTER STARTS -- */
 
 .footer-section {
-  position: relative;
-  top:332px;
+  display: inline-block;
   width: 100%;
-  height: 123px;
+  height: 100px;
+  background-color: #4C1919;
 }
 
 .footer-text {
@@ -843,11 +1303,13 @@ body, main {
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   letter-spacing: -0.5px;
+  color: #CFC7B4;
+  text-shadow: 1px 1px black;
 }
 
 .footer-text a {
   font-size: 16px;
-  color: black;
+  color: #CFC7B4;
 }
 
 .footer-text a:hover {

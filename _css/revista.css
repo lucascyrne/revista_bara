@@ -1,26 +1,47 @@
 /* -- GENERAL -- */
 
+/*
+* colors:
+* #4C1919 - Bordô* - rgba(255, 0, 0, 0.6)
+* #BAA87C - Bege* - lighter => #CFC7B4
+*/
+
 body, main {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
 }
 
-/* MENU-SUPERIOR STARTS */
+body, main, .container {
+
+}
+
+.container {
+  position: absolute;
+  top: 50px;
+  left: 175px;
+  width: 75%;
+  height: 10000px;
+  background-color: white;
+}
+
+/* MENU STARTS */
 
 .menu-superior {
   position: relative;
   width: 100%;
-  height: 80px;
-  background-color: black; /* rgba(255, 0, 0, 0.6); */
-
+  height: 50px;
+  text-align: center;
+  background-color: #4C1919;
+  border-bottom: 2px solid black;
 }
 
 #nav a {
-  position: relative;
-  top:15px;
   font-size: 20px;
   font-family: 'Oswald', sans-serif;
-  color: white;
+  color:  white;
   font-weight: lighter;
 }
 
@@ -29,20 +50,1255 @@ body, main {
   text-decoration: none;
 }
 
-/* MENU-SUPERIOR ENDS */
+/* MENU ENDS */
 
-/* REVISTA START */
+/* -- REVISTA STARTS -- */
+
+.revista-posts {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.revista-section-title a:hover {
+  text-decoration: none;
+}
+
+.revista-posts a:hover {
+  text-decoration: none;
+}
+
+/* REVISTA-INNER STARTS */
+
+.revista-posts-inner {
+  position: relative;
+  z-index: 0;
+  top: 15px;
+  width: 100%;
+  height: 1330px;
+}
+
+.continue-btn {
+  background-color: #4C1919;
+}
+
+.continue-btn h5 {
+  color: #CFC7B4;
+  text-shadow: 1px 1px black;
+}
+
+.author {
+  background-color:black;
+}
+
+.author h4 {
+  color: white;
+}
+
+.text {
+}
+
+.slash-revista {
+  position: relative;
+  width: 15px;
+  border: 1.5px solid white;
+}
+
+.logo-bara-revista {
+  position: absolute;
+  top: -20px;
+  width: 20%;
+  height: auto;
+}
+
+#logo-bara-revista {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.topicos {
+  position: absolute;
+  float: right;
+  left: 300px;
+  width: 70%;
+  height: 130px;
+}
+
+.topicos a {
+  position: relative;
+  color: black;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: justify;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 0.5px 0.5px black;
+}
+
+.topicos a:hover {
+  background-color: rgba(255, 0, 0, 0.6);
+}
+
+.maria-trindade-section {
+  position: absolute;
+  float: left;
+  top: 150px;
+  width: 50%;
+  height: 450px;
+}
+
+.maria-trindade-img {
+  position: absolute;
+}
+
+.maria-trindade-img img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.maria-trindade-title {
+  position: absolute;
+  top: 315px;
+  left: 2px;
+  width: 100%;
+}
+
+.maria-trindade-title h1 {
+  color: #4C1919;
+  font-size: 85px;
+  text-align: justify;
+  letter-spacing: 4px;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 3px 3px black;
+}
+
+.maria-trindade-author {
+  position: absolute;
+  top: 420px;
+  left: 343px;
+  width: 30%;
+  height: 30px;
+  text-align: center;
+}
+
+.maria-trindade-author h4 {
+  position: relative;
+  top: -30px;
+  left: 15px;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#maria-trindade-slash {
+  top: 0px;
+  left: -55px;
+  color: white;
+}
+
+.bru-pereira-section {
+  position: absolute;
+  float: right;
+  top: 120px;
+  left: 515px;
+  width: 46%;
+  height: 240px;
+}
+
+.bru-pereira-title {
+  position: absolute;
+  width: 50%;
+  text-align: right;
+}
+
+.bru-pereira-title h1 {
+  position: relative;
+  top: 5px;
+  left: -25px;
+  font-size: 100px;
+  font-family: 'Oswald', sans-serif;
+  color: #4C1919;
+  text-shadow: 3px 3px black;
+}
+
+.bru-pereira-author {
+  position: absolute;
+  top: 75px;
+  left: 316px;
+  width: 30%;
+  height: 40px;
+}
+
+#bru-pereira-slash {
+  top: 5px;
+  left: -50px;
+}
+
+.bru-pereira-author h4 {
+  position: relative;
+  top: -28px;
+  left: 45px;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.bru-pereira-text {
+  position: absolute;
+  top: 120px;
+  width: 100%;
+  max-height: 300px;
+  height: 150px;
+  text-align: justify;
+}
+
+.bru-pereira-text p {
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-weight: lighter;
+}
+
+.bru-pereira-continue {
+  position: absolute;
+  top: 200px;
+  left: 248px;
+  width: 45%;
+  height: 40px;
+}
+
+.bru-pereira-continue h5 {
+  position: relative;
+  top: 7px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.carol-do-vale-section {
+  position: absolute;
+  float: right;
+  top: 380px;
+  left: 515px;
+  width: 46%;
+  height: 230px;
+}
+
+.carol-do-vale-title {
+  position: absolute;
+  width: 100%;
+  height: 160px;
+  top: 5px;
+}
+
+.carol-do-vale-title h1 {
+  position: relative;
+  top: -10px;
+  text-align: right;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  color: #4C1919;
+  text-shadow: 1.5px 1.5px black;
+}
+
+.carol-do-vale-author {
+  position: absolute;
+  top: 45px;
+  width: 30%;
+  height: 40px;
+}
+
+#carol-do-vale-slash {
+  top: 3px;
+  left: -52px;
+}
+
+.carol-do-vale-author h4 {
+  position: relative;
+  top: -28px;
+  left: 30px;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.carol-do-vale-text {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  height: 150px;
+}
+
+.carol-do-vale-text p {
+  text-align: justify;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-weight: lighter;
+}
+
+.carol-do-vale-continue {
+  position: absolute;
+  top: 190px;
+  left: 235px;
+  width: 48%;
+  height: 40px;
+}
+
+.carol-do-vale-continue h5 {
+  position: relative;
+  text-align: center;
+  top: 7px;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.bruna-gomes-section {
+  position: absolute;
+  float: right;
+  top: 705px;
+  left: 515px;
+  width: 46%;
+  height: 565px;
+}
+
+.bruna-gomes-imgs {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  height: 430px;
+}
+
+.bruna-gomes-img1 {
+  position: absolute;
+  float: left;
+  top: -20px;
+  width: 49%;
+  height: auto;
+}
+
+
+.bruna-gomes-img1 img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border: 4px solid #4C1919;
+}
+
+.bruna-gomes-title01 {
+  position: absolute;
+  float: right;
+  top: -20px;
+  left: 235px;
+  width: 44%;
+  height: 150px;
+}
+
+.bruna-gomes-title01 h1 {
+  position: relative;
+  text-align: center;
+  font-size: 90px;
+  font-family: 'Oswald', sans-serif;
+  color: #4C1919;
+}
+
+.bruna-gomes-img2 {
+  position: absolute;
+  float: right;
+  top: 90px;
+  left: 230px;
+  width: 49%;
+  height: auto;
+}
+
+.bruna-gomes-img2 img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border: 4px solid #4C1919;
+}
+
+.bruna-gomes-title02 {
+  position: absolute;
+  float: left;
+  top: 245px;
+  left: 230px;
+  width: 54%;
+  height: 110px;
+}
+
+.bruna-gomes-title02 h1 {
+  position: relative;
+  left: 5px;
+  text-align: left;
+  font-size: 75px;
+  word-spacing: -9px;
+  font-family: 'Oswald', sans-serif;
+  color: #4C1919;
+}
+
+.bruna-gomes-img3 {
+  position: absolute;
+  float: left;
+  top: 200px;
+  width: 49%;
+  height: auto;
+}
+
+.bruna-gomes-img3 img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border: 4px solid #4C1919;
+}
+
+.bruna-gomes-text {
+  position: absolute;
+  top: 350px;
+  width: 100%;
+  height: 120px;
+}
+
+.bruna-gomes-text p {
+  position: relative;
+  text-align: justify;
+  font-weight: lighter;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+.bruna-gomes-author {
+  position: absolute;
+  float: right;
+  top: 440px;
+  left: 271px;
+  width: 40%;
+  height: 40px;
+}
+
+#bruna-gomes-slash {
+    top: 2px;
+    left: -65px;
+    border: 1.5px solid white;
+}
+
+.bruna-gomes-author h4 {
+  position: relative;
+  top: -28px;
+  left: -10px;
+  text-align: right;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.bruna-gomes-continue {
+  position: absolute;
+  top: 490px;
+  width: 100%;
+  height: 60px;
+}
+
+.bruna-gomes-continue h5 {
+  position: relative;
+  text-align: center;
+  top: 12px;
+  left: 55;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 2px 2px black;
+}
+
+.bruna-diniz-section {
+  position: absolute;
+  float: left;
+  top: 765px;
+  width: 24%;
+  height: 510px;
+}
+
+.bruna-diniz-author {
+  position: absolute;
+  float: right;
+  top: 400px;
+  left: 117px;
+  width: 50%;
+  height: 40px;
+}
+
+.bruna-diniz-author h4 {
+  position: relative;
+  top: -28px;
+  left: -10px;
+  text-align: right;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#bruna-diniz-slash {
+  top: 2px;
+  left: -35px;
+  border: 1.5px solid white;
+}
+
+.bruna-diniz-text {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.bruna-diniz-text p {
+  position: relative;
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-weight: lighter;
+}
+
+.bruna-diniz-continue {
+  position: absolute;
+  top: 450px;
+  width: 100%;
+  height: 60px;
+}
+
+.bruna-diniz-continue h5 {
+  position: relative;
+  top: 15px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.bruno-caldeira-section {
+  position: absolute;
+  float: left;
+  top: 765px;
+  left: 255px;
+  width: 24%;
+  height: 510px;
+}
+
+.bruno-caldeira-title {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 40px;
+}
+
+.bruno-caldeira-title h4 {
+  position: relative;
+  top: -5px;
+  text-align: left;
+  font-size: 22px;
+  font-family: 'Oswald', sans-serif;
+  color: #4C1919;
+}
+
+.bruno-caldeira-author {
+  position: relative;
+  float: right;
+  top: 2px;
+  width: 55%;
+  height: 40px;
+}
+
+.bruno-caldeira-author h4 {
+  position: relative;
+  top: -26px;
+  left: -10px;
+  text-align: right;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#bruno-caldeira-slash {
+  top: 2px;
+  left: -42px;
+  border: 1.5px solid white;
+}
+
+.bruno-caldeira-text {
+  position: relative;
+  top: 10px;
+  width: 100%;
+  height: 359px;
+}
+
+.bruno-caldeira-text p {
+  position: relative;
+  text-align: justify;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-weight: lighter;
+}
+
+.bruno-caldeira-continue {
+  position: relative;
+  top: 51px;
+  width: 100%;
+  height: 60px;
+}
+
+.bruno-caldeira-continue h5 {
+  position: relative;
+  top: 5px;
+  left: 60px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.davi-section01 {
+  position: absolute;
+  top: 1330px;
+  width: 50%;
+  height: 360px;
+}
+
+#d-polaroid-01 {
+  position: relative;
+  width: 48.8%;
+}
+
+#d-polaroid-02 {
+  position: relative;
+  left: 8px;
+  width: 48.8%;
+}
+
+.davi-section01 a img {
+  position: relative;
+  width: 100%;
+  height: 260px;
+}
+
+.davi-title {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  top: 5px;
+}
+
+.davi-title h1 {
+  position: relative;
+  top: -15px;
+  left: -5px;
+  font-size: 100px;
+  font-family: 'Oswald', sans-serif;
+  color: #4C1919;
+  text-shadow: 3px 3px black;
+  letter-spacing: 25px;
+}
+
+.davi-title h2 {
+  position: relative;
+  top: -112px;
+  left: 260px;
+  font-size: 70px;
+  font-family: 'Oswald', sans-serif;
+  color: #4C1919;
+  text-shadow: 3px 3px black;
+}
+
+.davi-section02 {
+  position: absolute;
+  float: right;
+  top: 1330px;
+  left: 515px;
+  width: 46%;
+  height: 360px;
+}
+
+.davi-section02 a img {
+  position: relative;
+  width: 100%;
+  height: 360px;
+}
+
+.daniel-lima-section {
+  position: absolute;
+  top: 1760px;
+  width: 50%;
+  height: 380px;
+}
+
+.daniel-lima-title {
+  position: relative;
+  width: 100%;
+  height: 140px;
+}
+
+.daniel-lima-title h1 {
+  position: relative;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Oswald', sans-serif;
+  color: #4C1919;
+  text-shadow: 2px 2px black;
+}
+
+.daniel-lima-text {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  top: 10px;
+}
+
+.daniel-lima-text p {
+  position: relative;
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-weight: lighter;
+}
+
+.daniel-lima-author {
+  position: relative;
+  float: right;
+  top: -100px;
+  width: 35%;
+  height: 40px;
+}
+
+#daniel-lima-slash {
+  position: relative;
+  top: 4px;
+  left: -44px;
+}
+
+.daniel-lima-author h4 {
+  position: relative;
+  top: -26px;
+  left: -10px;
+  text-align: right;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.daniel-lima-continue {
+  position: relative;
+  top: -50px;
+  width: 100%;
+  height: 60px;
+}
+
+.daniel-lima-continue h5 {
+  position: relative;
+  top: 15px;
+  left: 80px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.iara-section {
+  position: absolute;
+  float: left;
+  top: 2198px;
+  width: 50%;
+  height: 325px;
+}
+
+.iara-title {
+  position: relative;
+  width: 100%;
+  top: -50px;
+  height: 130px;
+}
+
+.iara-title h1 {
+  position: relative;
+  font-size: 36px;
+  font-family: 'Oswald', sans-serif;
+  color: #4C1919;
+  text-shadow: 1.5px 1.5px black;
+}
+
+.iara-text {
+  position: relative;
+  top: -40px;
+  width: 100%;
+}
+
+.iara-text p {
+  position: relative;
+  text-align: justify;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-weight: lighter;
+}
+
+.iara-author {
+  position: relative;
+  float: right;
+  top: -50px;
+  width: 34%;
+  height: 40px;
+}
+
+#iara-slash {
+  position: relative;
+  top: 4px;
+  left: -60px;
+}
+
+.iara-author h4 {
+  position: relative;
+  top: -25px;
+  left: -10px;
+  text-align: right;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.iara-continue {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 60px;
+}
+
+.iara-continue h5 {
+  position: relative;
+  top: 15px;
+  left: 75px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.claudinei-section {
+  position: absolute;
+  float: right;
+  top: 1765px;
+  left: 515px;
+  width: 46%;
+  height: auto;
+
+}
+
+.claudinei-title {
+  position: relative;
+  width: 100%;
+  height: 130px;
+}
+
+.claudinei-title h1 {
+  position: relative;
+  text-align: center;
+  font-size: 58px;
+  font-family: 'Oswald', sans-serif;
+  color: #4C1919;
+  text-shadow: 2px 2px black;
+}
+
+.claudinei-img {
+  position: relative;
+  top: 15px;
+  left: 1px;
+}
+
+.claudinei-text {
+  position: relative;
+  top: 20px;
+  width: 100%;
+}
+
+.claudinei-text p {
+  position: relative;
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-weight: lighter;
+}
+
+.claudinei-author {
+  position: relative;
+  float: right;
+  top: 10px;
+  width: 48%;
+  height: 40px;
+}
+
+#claudinei-slash {
+  top: 5px;
+  left: -80px;
+}
+
+
+.claudinei-author h4 {
+  position: relative;
+  top: -26px;
+  left: -10px;
+  text-align: right;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.claudinei-continue {
+  position: relative;
+  top: 60px;
+  width: 100%;
+  height: 60px;
+}
+
+.claudinei-continue h5 {
+  position: relative;
+  top: 15px;
+  left: 100px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.cecilia-section {
+  position: absolute;
+  float: left;
+  top: 2642px;
+  width: 24%;
+  height: 635px;
+}
+
+.cecilia-title {
+  position: relative;
+  width: 100%;
+  height: 130px;
+}
+
+.cecilia-title h1 {
+  position: relative;
+  font-size: 60px;
+  font-family: 'Oswald', sans-serif;
+  color: #4C1919;
+  text-shadow: 2px 2px black;
+}
+
+.cecilia-text {
+  position: relative;
+  top: 30px;
+  width: 100%;
+}
+
+.cecilia-text p {
+  position: relative;
+  text-align: justify;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-weight: lighter;
+}
+
+.cecilia-author {
+  position: relative;
+  float: right;
+  top: 30px;
+  width: 80%;
+  height: 40px;
+}
+
+#cecilia-slash {
+  position: relative;
+  top: 4px;
+  left: -70px;
+}
+
+.cecilia-author h4 {
+  position: relative;
+  top: -25px;
+  left: -10px;
+  text-align: right;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.cecilia-continue {
+  position: relative;
+  top: 80px;
+  width: 100%;
+  height: 60px;
+}
+
+.cecilia-continue h5 {
+  position: relative;
+  top: -25px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.jucara-section {
+  position: absolute;
+  float: left;
+  top: 2678px;
+  left: 255px;
+  width: 24%;
+  height: 635px;
+}
+
+.jucara-text {
+  position: relative;
+  top: 27px;
+  width: 100%;
+}
+
+.jucara-text p {
+  position: relative;
+  text-align: justify;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-weight: lighter;
+}
+
+.jucara-author {
+  position: relative;
+  float: right;
+  top: 52px;
+  width: 80%;
+  height: 40px;
+}
+
+#jucara-slash {
+  position: relative;
+  top: 4px;
+  left: -55px;
+}
+
+.jucara-author h4 {
+  position: relative;
+  top: -25px;
+  left: -10px;
+  text-align: right;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.jucara-continue {
+  position: relative;
+  top: 102px;
+  width: 100%;
+  height: 60px;
+}
+
+.jucara-continue h5 {
+  position: relative;
+  top: -25px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.thais-section {
+  position: absolute;
+  float: right;
+  top: 2540px;
+  left: 515px;
+  width: 46%;
+  height: 645px;
+}
+
+.thais-title {
+  position: relative;
+  width: 100%;
+  top: -20px;
+  height: 130px;
+}
+
+.thais-title h1 {
+  position: relative;
+  text-align: justify;
+  font-size: 38px;
+  font-family: 'Oswald', sans-serif;
+  color: #4C1919;
+  text-shadow: 1.5px 1.5px black;
+}
+
+.thais-img {
+  position: relative;
+  top: -40px;
+  width: 100%;
+  height: auto;
+}
+
+.thais-img img {
+  position: relative;
+  left: 70px;
+  width: 70%;
+  height: auto;
+}
+
+.thais-text {
+  position: relative;
+  top: -30px;
+  width: 100%;
+}
+
+.thais-text p {
+  position: relative;
+  text-align: justify;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-weight: lighter;
+}
+
+.thais-author {
+  position: relative;
+  float: right;
+  top: -40px;
+  width: 34%;
+  height: 40px;
+}
+
+#thais-slash {
+  position: relative;
+  top: 4px;
+  left: -60px;
+}
+
+.thais-author h4 {
+  position: relative;
+  top: -25px;
+  left: -10px;
+  text-align: right;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.thais-continue {
+  position: relative;
+  top: 10px;
+  width: 100%;
+  height: 60px;
+}
+
+.thais-continue h5 {
+  position: relative;
+  top: 15px;
+  left: 75px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.laila-section {
+  position: absolute;
+  top: 3270px;
+  width: 100%;
+  height: 700px;
+}
+
+.laila-title {
+  position: relative;
+  width: 70%;
+  height: 60px;
+}
+
+.laila-title h1 {
+  position: relative;
+  font-size: 34px;
+  font-family: 'Oswald', sans-serif;
+  color: #4C1919;
+  text-shadow: 2px 2px black;
+}
+
+#l-img01 {
+  position: relative;
+  width: 70%;
+  height: auto;
+}
+
+.laila-section01 div a img {
+  position: relative;
+  width: 100%;
+  height: 260px;
+}
+
+.laila-text {
+  position: relative;
+  float: right;
+  top: -485px;
+  left: 1px;
+  width: 30%
+}
+
+.laila-text p {
+  position: relative;
+  text-align: justify;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-weight: lighter;
+}
+
+.laila-continue {
+  position: relative;
+  float: right;
+  top: -90px;
+  left: 295px;
+  width: 30%;
+  height: 60px;
+}
+
+.laila-continue h5 {
+  position: relative;
+  text-align: center;
+  top: 15px;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.laila-author {
+  position: relative;
+  float: right;
+  top: -20px;
+  left: 589px;
+  width: 20%;
+  height: 40px;
+}
+
+#laila-slash {
+  position: relative;
+  top: 4px;
+  left: -60px;
+}
+
+.laila-author h4 {
+  position: relative;
+  top: -25px;
+  left: -10px;
+  text-align: right;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* REVISTA-INNER ENDS */
+
+/* -- REVISTA ENDS -- */
 
 
 
-/* REVISTA ENDS */
 
 /* -- FOOTER STARTS -- */
 
 .footer-section {
-  position: relative;
+  position: absolute;
+  top: 10000px;
   width: 100%;
-  height: 123px;
+  height: 162px;
+  border-top: 2px solid black;
+  background-color: #4C1919;
 }
 
 .footer-text {
@@ -59,11 +1315,13 @@ body, main {
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   letter-spacing: -0.5px;
+  color: #CFC7B4;
+  text-shadow: 2px 2px black;
 }
 
 .footer-text a {
   font-size: 16px;
-  color: black;
+  color: #CFC7B4;
 }
 
 .footer-text a:hover {
