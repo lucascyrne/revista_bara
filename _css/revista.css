@@ -2,7 +2,7 @@
 
 /*
 * colors:
-* #4C1919 - Bordô* - rgba(255, 0, 0, 0.6)
+* #4C1919 - Bordô* - rgba(255, 0, 0, 0.6) - rgba(233, 26, 26, 1)
 * #BAA87C - Bege* - lighter => #CFC7B4
 */
 
@@ -18,12 +18,17 @@ body, main, .container {
 
 }
 
+.text p {
+  text-align: justify;
+  font-family: 'Crimson Text', serif;
+}
+
 .container {
   position: absolute;
   top: 50px;
   left: 175px;
   width: 75%;
-  height: 10000px;
+  height: 4900px;
   background-color: white;
 }
 
@@ -34,7 +39,7 @@ body, main, .container {
   width: 100%;
   height: 50px;
   text-align: center;
-  background-color: #4C1919;
+  background-color: black;
   border-bottom: 2px solid black;
 }
 
@@ -51,6 +56,34 @@ body, main, .container {
 }
 
 /* MENU ENDS */
+
+/* social sidebar starts */
+
+.social-sidebar {
+  position: fixed;
+  left: 1220px;
+  z-index: 99;
+  float: right;
+  width: 80px;
+  height: 105px;
+}
+
+#face-logo-sidebar {
+  position: relative;
+  left: 17px;
+  width: 45px;
+  height: 40px;
+}
+
+#inst-logo-sidebar {
+  position: relative;
+  top: 15px;
+  left: 2px;
+  width: 75px;
+  height: 50px;
+}
+
+/* social sidebar ends */
 
 /* -- REVISTA STARTS -- */
 
@@ -78,8 +111,20 @@ body, main, .container {
   height: 1330px;
 }
 
+.title {
+  text-align: center;
+}
+
+.title h1 {
+  color: rgba(233, 26, 26, 1);
+  position: relative;
+  font-size: 100px;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 3px 3px black;
+}
+
 .continue-btn {
-  background-color: #4C1919;
+  background-color: rgba(233, 26, 26, 1);
 }
 
 .continue-btn h5 {
@@ -91,11 +136,16 @@ body, main, .container {
   background-color:black;
 }
 
-.author h4 {
+.author h2 {
   color: white;
 }
 
-.text {
+.text p {
+  text-align: justify;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-weight: lighter;
 }
 
 .slash-revista {
@@ -133,10 +183,11 @@ body, main, .container {
   text-align: justify;
   font-family: 'Oswald', sans-serif;
   text-shadow: 0.5px 0.5px black;
+  padding: 3px;
 }
 
 .topicos a:hover {
-  background-color: rgba(255, 0, 0, 0.6);
+  background-color: rgba(233, 26, 26, 1);
 }
 
 .maria-trindade-section {
@@ -165,7 +216,6 @@ body, main, .container {
 }
 
 .maria-trindade-title h1 {
-  color: #4C1919;
   font-size: 85px;
   text-align: justify;
   letter-spacing: 4px;
@@ -176,13 +226,13 @@ body, main, .container {
 .maria-trindade-author {
   position: absolute;
   top: 420px;
-  left: 343px;
-  width: 30%;
+  left: 318px;
+  width: 34%;
   height: 30px;
   text-align: center;
 }
 
-.maria-trindade-author h4 {
+.maria-trindade-author h2 {
   position: relative;
   top: -30px;
   left: 15px;
@@ -194,6 +244,31 @@ body, main, .container {
   top: 0px;
   left: -55px;
   color: white;
+}
+
+.social-media {
+  position: absolute;
+  float: left;
+  top: 630px;
+  width: 40%;
+  height: 100px;
+}
+
+.social-media img {
+  position: relative;
+  top: 20px;
+  width: 20%;
+}
+
+#face-logo {
+  width: 45px;
+  height: 40px;
+}
+
+#inst-logo {
+  width: 75px;
+  left: 10px;
+  height: 50px;
 }
 
 .bru-pereira-section {
@@ -217,7 +292,6 @@ body, main, .container {
   left: -25px;
   font-size: 100px;
   font-family: 'Oswald', sans-serif;
-  color: #4C1919;
   text-shadow: 3px 3px black;
 }
 
@@ -230,11 +304,11 @@ body, main, .container {
 }
 
 #bru-pereira-slash {
-  top: 5px;
-  left: -50px;
+  top: 2px;
+  left: -35px;
 }
 
-.bru-pereira-author h4 {
+.bru-pereira-author h2 {
   position: relative;
   top: -28px;
   left: 45px;
@@ -296,7 +370,6 @@ body, main, .container {
   text-align: right;
   font-size: 30px;
   font-family: 'Oswald', sans-serif;
-  color: #4C1919;
   text-shadow: 1.5px 1.5px black;
 }
 
@@ -312,7 +385,7 @@ body, main, .container {
   left: -52px;
 }
 
-.carol-do-vale-author h4 {
+.carol-do-vale-author h2 {
   position: relative;
   top: -28px;
   left: 30px;
@@ -397,7 +470,6 @@ body, main, .container {
   text-align: center;
   font-size: 90px;
   font-family: 'Oswald', sans-serif;
-  color: #4C1919;
 }
 
 .bruna-gomes-img2 {
@@ -432,7 +504,6 @@ body, main, .container {
   font-size: 75px;
   word-spacing: -9px;
   font-family: 'Oswald', sans-serif;
-  color: #4C1919;
 }
 
 .bruna-gomes-img3 {
@@ -481,7 +552,7 @@ body, main, .container {
     border: 1.5px solid white;
 }
 
-.bruna-gomes-author h4 {
+.bruna-gomes-author h2 {
   position: relative;
   top: -28px;
   left: -10px;
@@ -524,7 +595,7 @@ body, main, .container {
   height: 40px;
 }
 
-.bruna-diniz-author h4 {
+.bruna-diniz-author h2 {
   position: relative;
   top: -28px;
   left: -10px;
@@ -534,8 +605,8 @@ body, main, .container {
 }
 
 #bruna-diniz-slash {
-  top: 2px;
-  left: -35px;
+  top: 0px;
+  left: -38px;
   border: 1.5px solid white;
 }
 
@@ -585,35 +656,35 @@ body, main, .container {
   height: 40px;
 }
 
-.bruno-caldeira-title h4 {
+.bruno-caldeira-title h1 {
   position: relative;
   top: -5px;
   text-align: left;
   font-size: 22px;
   font-family: 'Oswald', sans-serif;
-  color: #4C1919;
+  text-shadow: 1px 1px black;
 }
 
 .bruno-caldeira-author {
   position: relative;
   float: right;
   top: 2px;
-  width: 55%;
+  width: 60%;
   height: 40px;
 }
 
-.bruno-caldeira-author h4 {
+.bruno-caldeira-author h2 {
   position: relative;
   top: -26px;
   left: -10px;
   text-align: right;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Oswald', sans-serif;
 }
 
 #bruno-caldeira-slash {
   top: 2px;
-  left: -42px;
+  left: -47px;
   border: 1.5px solid white;
 }
 
@@ -649,76 +720,54 @@ body, main, .container {
   font-family: 'Oswald', sans-serif;
 }
 
-.davi-section01 {
-  position: absolute;
-  top: 1330px;
-  width: 50%;
-  height: 360px;
-}
 
-#d-polaroid-01 {
+.davi-section {
   position: relative;
-  width: 48.8%;
-}
-
-#d-polaroid-02 {
-  position: relative;
-  left: 8px;
-  width: 48.8%;
-}
-
-.davi-section01 a img {
-  position: relative;
+  top: 1320px;
   width: 100%;
-  height: 260px;
+  height: 450px;
 }
 
 .davi-title {
   position: relative;
-  width: 100%;
-  height: 150px;
-  top: 5px;
+  left: -255px;
 }
 
 .davi-title h1 {
-  position: relative;
-  top: -15px;
-  left: -5px;
-  font-size: 100px;
-  font-family: 'Oswald', sans-serif;
-  color: #4C1919;
-  text-shadow: 3px 3px black;
-  letter-spacing: 25px;
+  font-size: 45px;
 }
 
-.davi-title h2 {
+.davi-img1 {
   position: relative;
-  top: -112px;
-  left: 260px;
-  font-size: 70px;
-  font-family: 'Oswald', sans-serif;
-  color: #4C1919;
-  text-shadow: 3px 3px black;
+  float: left;
+  top: 20px;
+  left: 50px;
+  width: 40%;
+  height: 322px;
 }
 
-.davi-section02 {
-  position: absolute;
+.davi-img1 img {
+  width:  100%;
+  height: 100%;
+}
+
+.davi-img2 {
+  position: relative;
   float: right;
-  top: 1330px;
-  left: 515px;
-  width: 46%;
-  height: 360px;
+  top: -108px;
+  width: 50%;
+  height: 450px;
 }
 
-.davi-section02 a img {
-  position: relative;
-  width: 100%;
-  height: 360px;
+.davi-img2 img {
+  width:  100%;
+  height: 100%;
 }
+
 
 .daniel-lima-section {
   position: absolute;
-  top: 1760px;
+  top: 1800px;
   width: 50%;
   height: 380px;
 }
@@ -734,15 +783,26 @@ body, main, .container {
   text-align: center;
   font-size: 60px;
   font-family: 'Oswald', sans-serif;
-  color: #4C1919;
   text-shadow: 2px 2px black;
+}
+
+.daniel-img {
+  position: relative;
+  top: 20px;
+  left: 90px;
+  width: 60%;
+}
+
+.daniel-img img {
+  position: relative;
+  width: 100%;
 }
 
 .daniel-lima-text {
   position: relative;
+  top: 30px;
   width: 100%;
   height: 200px;
-  top: 10px;
 }
 
 .daniel-lima-text p {
@@ -757,7 +817,7 @@ body, main, .container {
 .daniel-lima-author {
   position: relative;
   float: right;
-  top: -100px;
+  top: -80px;
   width: 35%;
   height: 40px;
 }
@@ -768,7 +828,7 @@ body, main, .container {
   left: -44px;
 }
 
-.daniel-lima-author h4 {
+.daniel-lima-author h2 {
   position: relative;
   top: -26px;
   left: -10px;
@@ -780,7 +840,7 @@ body, main, .container {
 
 .daniel-lima-continue {
   position: relative;
-  top: -50px;
+  top: -30px;
   width: 100%;
   height: 60px;
 }
@@ -797,7 +857,7 @@ body, main, .container {
 .iara-section {
   position: absolute;
   float: left;
-  top: 2198px;
+  top: 2470px;
   width: 50%;
   height: 325px;
 }
@@ -805,7 +865,7 @@ body, main, .container {
 .iara-title {
   position: relative;
   width: 100%;
-  top: -50px;
+  top: -70px;
   height: 130px;
 }
 
@@ -813,13 +873,12 @@ body, main, .container {
   position: relative;
   font-size: 36px;
   font-family: 'Oswald', sans-serif;
-  color: #4C1919;
   text-shadow: 1.5px 1.5px black;
 }
 
 .iara-text {
   position: relative;
-  top: -40px;
+  top: -60px;
   width: 100%;
 }
 
@@ -842,11 +901,11 @@ body, main, .container {
 
 #iara-slash {
   position: relative;
-  top: 4px;
+  top: 5px;
   left: -60px;
 }
 
-.iara-author h4 {
+.iara-author h2 {
   position: relative;
   top: -25px;
   left: -10px;
@@ -875,7 +934,7 @@ body, main, .container {
 .claudinei-section {
   position: absolute;
   float: right;
-  top: 1765px;
+  top: 1805px;
   left: 515px;
   width: 46%;
   height: auto;
@@ -893,7 +952,6 @@ body, main, .container {
   text-align: center;
   font-size: 58px;
   font-family: 'Oswald', sans-serif;
-  color: #4C1919;
   text-shadow: 2px 2px black;
 }
 
@@ -927,12 +985,12 @@ body, main, .container {
 }
 
 #claudinei-slash {
-  top: 5px;
-  left: -80px;
+  top: 4px;
+  left: -78px;
 }
 
 
-.claudinei-author h4 {
+.claudinei-author h2 {
   position: relative;
   top: -26px;
   left: -10px;
@@ -961,22 +1019,23 @@ body, main, .container {
 .cecilia-section {
   position: absolute;
   float: left;
-  top: 2642px;
+  top: 2682px;
   width: 24%;
   height: 635px;
 }
 
 .cecilia-title {
   position: relative;
+  top: 100px;
+  left: -15px;
   width: 100%;
   height: 130px;
 }
 
 .cecilia-title h1 {
   position: relative;
-  font-size: 60px;
+  font-size: 40px;
   font-family: 'Oswald', sans-serif;
-  color: #4C1919;
   text-shadow: 2px 2px black;
 }
 
@@ -1009,7 +1068,7 @@ body, main, .container {
   left: -70px;
 }
 
-.cecilia-author h4 {
+.cecilia-author h2 {
   position: relative;
   top: -25px;
   left: -10px;
@@ -1037,7 +1096,7 @@ body, main, .container {
 .jucara-section {
   position: absolute;
   float: left;
-  top: 2678px;
+  top: 2718px;
   left: 255px;
   width: 24%;
   height: 635px;
@@ -1072,7 +1131,7 @@ body, main, .container {
   left: -55px;
 }
 
-.jucara-author h4 {
+.jucara-author h2 {
   position: relative;
   top: -25px;
   left: -10px;
@@ -1100,7 +1159,7 @@ body, main, .container {
 .thais-section {
   position: absolute;
   float: right;
-  top: 2540px;
+  top: 2596px;
   left: 515px;
   width: 46%;
   height: 645px;
@@ -1118,7 +1177,6 @@ body, main, .container {
   text-align: justify;
   font-size: 38px;
   font-family: 'Oswald', sans-serif;
-  color: #4C1919;
   text-shadow: 1.5px 1.5px black;
 }
 
@@ -1165,7 +1223,7 @@ body, main, .container {
   left: -60px;
 }
 
-.thais-author h4 {
+.thais-author h2 {
   position: relative;
   top: -25px;
   left: -10px;
@@ -1193,8 +1251,8 @@ body, main, .container {
 
 .laila-section {
   position: absolute;
-  top: 3270px;
-  width: 100%;
+  top: 3310px;
+  width: 96%;
   height: 700px;
 }
 
@@ -1206,9 +1264,8 @@ body, main, .container {
 
 .laila-title h1 {
   position: relative;
-  font-size: 34px;
+  font-size: 30px;
   font-family: 'Oswald', sans-serif;
-  color: #4C1919;
   text-shadow: 2px 2px black;
 }
 
@@ -1244,7 +1301,7 @@ body, main, .container {
 .laila-continue {
   position: relative;
   float: right;
-  top: -90px;
+  top: -70px;
   left: 295px;
   width: 30%;
   height: 60px;
@@ -1261,8 +1318,8 @@ body, main, .container {
 .laila-author {
   position: relative;
   float: right;
-  top: -20px;
-  left: 589px;
+  top: 0px;
+  left: 579px;
   width: 20%;
   height: 40px;
 }
@@ -1270,10 +1327,10 @@ body, main, .container {
 #laila-slash {
   position: relative;
   top: 4px;
-  left: -60px;
+  left: -45px;
 }
 
-.laila-author h4 {
+.laila-author h2 {
   position: relative;
   top: -25px;
   left: -10px;
@@ -1282,6 +1339,124 @@ body, main, .container {
   letter-spacing: 2px;
   font-family: 'Oswald', sans-serif;
 }
+
+.clar-nc-section {
+  position: absolute;
+  float: left;
+  top: 3920px;
+  width: 48%;
+  height: 600px;
+}
+
+.clar-nc-title {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+}
+
+.clar-nc-title h1 {
+  font-size: 40px;
+  text-shadow: 2px 2px black;
+}
+
+.clar-nc-video {
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
+
+.clar-nc-text {
+  position: relative;
+  width: 100%;
+  top: 40px;
+}
+
+.clar-nc-continue {
+  position: relative;
+  top: 60px;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+}
+
+.clar-nc-continue h5 {
+  position: relative;
+  top: 25px;
+  font-size: 20px;
+}
+
+.clar-nc-author {
+  position: relative;
+  float: right;
+  top: 70px;
+  width: 30%;
+  height: 40px;
+}
+
+#clar-slash {
+  position: relative;
+  top: 5px;
+  left: -20px;
+}
+
+.clar-nc-author h2 {
+  position: relative;
+  text-align: right;
+  top: -25px;
+  left: -10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.mare-section {
+  position: absolute;
+  float: right;
+  top: 3920px;
+  left: 500px;
+  width: 48%;
+  height: 600px;
+}
+
+.mare-title {
+  position: relative;
+  top: 0px;
+  text-align: center;
+}
+
+.mare-title h1 {
+  font-size: 40px;
+  text-shadow: 2px 2px black;
+}
+
+.mare-img {
+  position: relative;
+  top: 20px;
+  width: 80%;
+  height: 300px;
+  left: 50px;
+}
+
+.mare-img img {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.mare-author {
+  position: relative;
+  width: 100%;
+  top: 225px;
+  text-align: center;
+}
+
+.mare-author h1 {
+  position: relative;
+  font-size: 55px;
+}
+
+
 
 /* REVISTA-INNER ENDS */
 
@@ -1294,11 +1469,11 @@ body, main, .container {
 
 .footer-section {
   position: absolute;
-  top: 10000px;
+  top: 4940px;
   width: 100%;
   height: 162px;
   border-top: 2px solid black;
-  background-color: #4C1919;
+  background-color: black;
 }
 
 .footer-text {
@@ -1315,19 +1490,29 @@ body, main, .container {
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   letter-spacing: -0.5px;
-  color: #CFC7B4;
+  color:white;
   text-shadow: 2px 2px black;
 }
 
 .footer-text a {
   font-size: 16px;
-  color: #CFC7B4;
+  color: white;
 }
 
 .footer-text a:hover {
   font-size: 16px;
-  color: firebrick;
+  color: rgba(233, 26, 26, 1);
   text-decoration: none;
 }
 
 /* -- FOOTER ENDS -- */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+table { border-collapse:collapse; border-spacing:0; }
+fieldset,img { border:0; }
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:normal; }
+ol,ul { list-style:none; }
+caption,th { text-align:left; }
+h1,h2,h3,h4,h5,h6 { font-size:101.1%; font-weight:normal; }
+q:before,q:after { content:''; }
+abbr,acronym { border:0; }

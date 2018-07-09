@@ -14,7 +14,7 @@
   position: relative;
   font-size: 32px;
   font-family: 'Oswald', sans-serif;
-  color: #4C1919;
+  color: rgba(233, 26, 26, 1);
   text-shadow: 2px 2px black;
 }
 
@@ -23,10 +23,11 @@
 }
 
 .text p {
-  font-size: 16px;
-  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-family: 'Crimson Text', serif;
   color: black;
   font-weight: lighter;
+  text-align: justify;
 }
 
 .author {
@@ -34,7 +35,7 @@
 
 .author h2 {
   position: relative;
-  color: #4C1919;
+  color: rgba(233, 26, 26, 1);
   font-size: 18px;
   font-family: 'Oswald', sans-serif;
 }
@@ -44,7 +45,7 @@
   top: 65px;
   left: 95px;
   width: 5%;
-  border: 4px solid #4C1919;
+  border: 4px solid rgba(233, 26, 26, 1);
 }
 
 .continue-btn {
@@ -93,7 +94,7 @@ body, main, .container {
   width: 100%;
   height: 50px;
   text-align: center;
-  background-color: #4C1919;
+  background-color: black;
   border-bottom: 2px solid black;
 }
 
@@ -111,6 +112,34 @@ body, main, .container {
 
 /* MENU ENDS */
 
+/* social sidebar starts */
+
+.social-sidebar {
+  position: fixed;
+  left: 1220px;
+  z-index: 99;
+  float: right;
+  width: 80px;
+  height: 105px;
+}
+
+#face-logo-sidebar {
+  position: relative;
+  left: 17px;
+  width: 45px;
+  height: 40px;
+}
+
+#inst-logo-sidebar {
+  position: relative;
+  top: 15px;
+  left: 2px;
+  width: 75px;
+  height: 50px;
+}
+
+/* social sidebar ends */
+
  /* maria trindade starts  */
 
 .maria-imgs {
@@ -125,13 +154,15 @@ body, main, .container {
   position: relative;
   width: 48%;
   height: auto;
-  box-shadow: 5px 5px 5px Dimgray;
+  -webkit-box-shadow: 5px 5px 5px Dimgray;
+          box-shadow: 5px 5px 5px Dimgray;
 }
 
 #img01 {
   float: left;
   top: 76px;
   left: 10px;
+  height: 557px;
 }
 
 .maria-title01 {
@@ -180,6 +211,7 @@ body, main, .container {
   float: right;
   top: 30px;
   left: -12px;
+  height: 400px;
 }
 
 #img06 {
@@ -230,7 +262,7 @@ body, main, .container {
   width: 100%;
   height: 162px;
   border-top: 2px solid black;
-  background-color: #4C1919;
+  background-color: black;
 }
 
 .footer-text {
@@ -247,13 +279,13 @@ body, main, .container {
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   letter-spacing: -0.5px;
-  color: #CFC7B4;
+  color: white;
   text-shadow: 2px 2px black;
 }
 
 .footer-text a {
   font-size: 16px;
-  color: #CFC7B4;
+  color: white;
 }
 
 .footer-text a:hover {
@@ -262,4 +294,14 @@ body, main, .container {
   text-decoration: none;
 }
 
-/* -- FOOTER ENDS -- */ER ENDS -- */
+/* -- FOOTER ENDS -- */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+table { border-collapse:collapse; border-spacing:0; }
+fieldset,img { border:0; }
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:normal; }
+ol,ul { list-style:none; }
+caption,th { text-align:left; }
+h1,h2,h3,h4,h5,h6 { font-size:101.1%; font-weight:normal; }
+q:before,q:after { content:''; }
+abbr,acronym { border:0; }

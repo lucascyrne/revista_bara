@@ -65,15 +65,41 @@
 
 /* AUTO SLIDE */
 
-onload  = start;
+onload = function() {
 
-function start(){
-var i = 1;
-function Move(){
-	i = (i%4)+1; // 4 is the Number of image in slider
-	document.getElementById('i'+i).checked = true;
+            var e, i = 0;
+            e = document.getElementById('slide-img').getElementsByTagName ('div');
+                while (e[i++]) {
+                 e.onmouseover = function () {
+                 clearTimeout(t);
+                 }
+
+                 e.onmouseout = function () {
+                 t=setTimeout("timedCount()",timeOut);
+                 }
+         }
 }
-setInterval(Move,3000); //change img in 3 sec
+
+c=0;
+timeOut = 5000;
+var t;
+t=setTimeout("timedCount()",timeOut);
+
+function timedCount() {
+        var getImage = document.getElementById('slide-img').getElementsByTagName('div');
+        img = getImage.length-1;
+             for (var a=0; a<getImage.length; a++) {
+                 if (getImage[a].className.indexOf("active") == 0) {
+                     getImage[a].className = 'inactive';
+                     c = a;
+                 }
+            }
+         c++;
+         if (c>img) {c=0;}
+         getImage[c].className = 'active';
+         t=setTimeout("timedCount()",timeOut);
 }
+
+
 
 /* AUTO SLIDE */

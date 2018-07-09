@@ -2,7 +2,7 @@
 
 /*
 * colors:
-* #4C1919 - Bordô* - rgba(255, 0, 0, 0.6)
+* #4C1919 - Bordô* - rgba(255, 0, 0, 0.6) - rgba(233, 26, 26, 1);
 * #BAA87C - Bege* - lighter => #CFC7B4
 */
 
@@ -14,7 +14,7 @@
   position: relative;
   font-size: 32px;
   font-family: 'Oswald', sans-serif;
-  color: #4C1919;
+  color: rgba(233, 26, 26, 1);
   text-shadow: 2px 2px black;
 }
 
@@ -28,8 +28,8 @@
 }
 
 .text p {
-  font-size: 16px;
-  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-family: 'Crimson Text', serif;
   color: black;
   font-weight: normal;
 }
@@ -40,7 +40,7 @@
 
 .author h2 {
   position: relative;
-  color: #4C1919;
+  color: rgba(233, 26, 26, 1);
   font-size: 18px;
   font-family: 'Oswald', sans-serif;
 }
@@ -48,9 +48,9 @@
 .slash-revista {
   position: relative;
   top: 60px;
-  left: -165px;
+  left: -170px;
   width: 10%;
-  border: 4px solid #4C1919;
+  border: 4px solid rgba(233, 26, 26, 1);
 }
 
 .continue-btn {
@@ -88,7 +88,7 @@ body, main, .container {
   top: 0px;
   left: 0px;
   width: 75%;
-  height: 1450px;
+  height: 900px;
   background-color: white;
 }
 
@@ -100,7 +100,7 @@ body, main, .container {
   width: 100%;
   height: 50px;
   text-align: center;
-  background-color: #4C1919;
+  background-color: black;
   border-bottom: 2px solid black;
 }
 
@@ -118,7 +118,37 @@ body, main, .container {
 
 /* MENU ENDS */
 
-.cecilia-floresta-section {
+/* social sidebar starts */
+
+.social-sidebar {
+  position: fixed;
+  left: 1220px;
+  z-index: 99;
+  float: right;
+  width: 80px;
+  height: 105px;
+}
+
+#face-logo-sidebar {
+  position: relative;
+  left: 17px;
+  width: 45px;
+  height: 40px;
+}
+
+#inst-logo-sidebar {
+  position: relative;
+  top: 15px;
+  left: 2px;
+  width: 75px;
+  height: 50px;
+}
+
+/* social sidebar ends */
+
+/* davi jesus starts  */
+
+.x-section {
   position: relative;
   width: 80%;
   top: 20px;
@@ -126,39 +156,11 @@ body, main, .container {
   left: 95px;
 }
 
-.cecilia-floresta-title {
-  position: relative;
-}
-
-.cecilia-floresta-title h1 {
-  font-size: 100px;
-}
-
-.quote {
-  position: relative;
-  float: right;
-  top: 30px;
-  left: -200px;
-}
-
-.cecilia-floresta-text {
-  position: relative;
-  top: 100px;
-}
 
 
-.cecilia-floresta-author {
-  position: relative;
-  top: 15px;
-  left: 350px;
-  width: 50%;
-}
+/* davi jesus ends  */
 
-.cecilia-floresta-author h2 {
-  position: relative;
-  left: 60px;
-  font-size: 60px;
-}
+
 
 
 /* -- FOOTER STARTS -- */
@@ -168,7 +170,7 @@ body, main, .container {
   width: 100%;
   height: 162px;
   border-top: 2px solid black;
-  background-color: #4C1919;
+  background-color: black;
 }
 
 .footer-text {
@@ -185,19 +187,19 @@ body, main, .container {
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   letter-spacing: -0.5px;
-  color: #CFC7B4;
+  color: white;
   text-shadow: 2px 2px black;
 }
 
 .footer-text a {
   font-size: 16px;
-  color: #CFC7B4;
+  color: white;
 }
 
 .footer-text a:hover {
   font-size: 16px;
-  color: firebrick;
+  color: rgba(233, 26, 26, 1);
   text-decoration: none;
 }
 
-/* -- FOOTER ENDS -- */ER ENDS -- */
+/* -- FOOTER ENDS -- */

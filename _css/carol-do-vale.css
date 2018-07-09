@@ -2,7 +2,7 @@
 
 /*
 * colors:
-* #4C1919 - Bordô* - rgba(255, 0, 0, 0.6)
+* #4C1919 - Bordô* - rgba(255, 0, 0, 0.6) - rgba(233, 26, 26, 1);
 * #BAA87C - Bege* - lighter => #CFC7B4
 */
 
@@ -14,7 +14,7 @@
   position: relative;
   font-size: 32px;
   font-family: 'Oswald', sans-serif;
-  color: #4C1919;
+  color: rgba(233, 26, 26, 1);
   text-shadow: 2px 2px black;
 }
 
@@ -23,8 +23,8 @@
 }
 
 .text p {
-  font-size: 16px;
-  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-family: 'Crimson Text', serif;
   color: black;
   font-weight: lighter;
   text-align: justify;
@@ -40,7 +40,7 @@
 
 .author h2 {
   position: relative;
-  color: #4C1919;
+  color: rgba(233, 26, 26, 1);
   font-size: 18px;
   font-family: 'Oswald', sans-serif;
 }
@@ -50,7 +50,7 @@
   top: 65px;
   left: 50px;
   width: 5%;
-  border: 4px solid #4C1919;
+  border: 4px solid rgba(233, 26, 26, 1);
 }
 
 .continue-btn {
@@ -99,7 +99,7 @@ body, main, .container {
   width: 100%;
   height: 50px;
   text-align: center;
-  background-color: #4C1919;
+  background-color: black;
   border-bottom: 2px solid black;
 }
 
@@ -117,6 +117,34 @@ body, main, .container {
 
 /* MENU ENDS */
 
+/* social sidebar starts */
+
+.social-sidebar {
+  position: fixed;
+  left: 1220px;
+  z-index: 99;
+  float: right;
+  width: 80px;
+  height: 105px;
+}
+
+#face-logo-sidebar {
+  position: relative;
+  left: 17px;
+  width: 45px;
+  height: 40px;
+}
+
+#inst-logo-sidebar {
+  position: relative;
+  top: 15px;
+  left: 2px;
+  width: 75px;
+  height: 50px;
+}
+
+/* social sidebar ends */
+
 /* BRU PEREIRA STARTS  */
 
 .carol-do-vale-section {
@@ -125,18 +153,32 @@ body, main, .container {
   width: 85%;
 }
 
+.carol-do-vale-title {
+  position: relative;
+  top: 20px;
+}
+
 .carol-do-vale-title h1 {
-  font-size: 115px;
+  font-size: 80px;
   text-align: center;
+}
+
+.carol-do-vale-text {
+  position: relative;
+  top: 40px;
 }
 
 .carol-do-vale-text p {
   font-weight: normal;
 }
 
+#quote {
+  font-family: 'Eagle Lake', cursive;
+}
+
 .carol-do-vale-author {
   position: relative;
-  top: -30px;
+  top: 20px;
 }
 
 .carol-do-vale-author h2 {
@@ -155,7 +197,7 @@ body, main, .container {
   width: 100%;
   height: 162px;
   border-top: 2px solid black;
-  background-color: #4C1919;
+  background-color: black;
 }
 
 .footer-text {
@@ -172,19 +214,29 @@ body, main, .container {
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   letter-spacing: -0.5px;
-  color: #CFC7B4;
+  color: white;
   text-shadow: 2px 2px black;
 }
 
 .footer-text a {
   font-size: 16px;
-  color: #CFC7B4;
+  color: white;
 }
 
 .footer-text a:hover {
   font-size: 16px;
-  color: firebrick;
+  color: rgba(233, 26, 26, 1);
   text-decoration: none;
 }
 
-/* -- FOOTER ENDS -- */ER ENDS -- */
+/* -- FOOTER ENDS -- */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+table { border-collapse:collapse; border-spacing:0; }
+fieldset,img { border:0; }
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:normal; }
+ol,ul { list-style:none; }
+caption,th { text-align:left; }
+h1,h2,h3,h4,h5,h6 { font-size:101.1%; font-weight:normal; }
+q:before,q:after { content:''; }
+abbr,acronym { border:0; }

@@ -2,7 +2,7 @@
 
 /*
 * colors:
-* #4C1919 - Bordô* - rgba(255, 0, 0, 0.6)
+* #4C1919 - Bordô* - rgba(255, 0, 0, 0.6) - rgba(233, 26, 26, 1);
 * #BAA87C - Bege* - lighter => #CFC7B4
 */
 
@@ -14,7 +14,7 @@
   position: relative;
   font-size: 32px;
   font-family: 'Oswald', sans-serif;
-  color: #4C1919;
+  color: rgba(233, 26, 26, 1);
   text-shadow: 2px 2px black;
 }
 
@@ -28,10 +28,11 @@
 }
 
 .text p {
-  font-size: 16px;
-  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-family: 'Crimson Text', serif;
   color: black;
   font-weight: normal;
+  text-align: justify;
 }
 
 .author {
@@ -40,7 +41,7 @@
 
 .author h2 {
   position: relative;
-  color: #4C1919;
+  color: rgba(233, 26, 26, 1);
   font-size: 18px;
   font-family: 'Oswald', sans-serif;
 }
@@ -48,9 +49,9 @@
 .slash-revista {
   position: relative;
   top: 60px;
-  left: -165px;
+  left: -170px;
   width: 10%;
-  border: 4px solid #4C1919;
+  border: 4px solid rgba(233, 26, 26, 1);
 }
 
 .continue-btn {
@@ -88,7 +89,7 @@ body, main, .container {
   top: 0px;
   left: 0px;
   width: 75%;
-  height: 1450px;
+  height: 1100px;
   background-color: white;
 }
 
@@ -100,7 +101,7 @@ body, main, .container {
   width: 100%;
   height: 50px;
   text-align: center;
-  background-color: #4C1919;
+  background-color: black;
   border-bottom: 2px solid black;
 }
 
@@ -118,6 +119,36 @@ body, main, .container {
 
 /* MENU ENDS */
 
+/* social sidebar starts */
+
+.social-sidebar {
+  position: fixed;
+  left: 1220px;
+  z-index: 99;
+  float: right;
+  width: 80px;
+  height: 105px;
+}
+
+#face-logo-sidebar {
+  position: relative;
+  left: 17px;
+  width: 45px;
+  height: 40px;
+}
+
+#inst-logo-sidebar {
+  position: relative;
+  top: 15px;
+  left: 2px;
+  width: 75px;
+  height: 50px;
+}
+
+/* social sidebar ends */
+
+/* jucara starts  */
+
 .jucara-marcal-section {
   position: relative;
   width: 80%;
@@ -126,29 +157,36 @@ body, main, .container {
   left: 95px;
 }
 
-
 .jucara-marcal-text {
+  position: absolute;
+  top: 60px;
+}
+
+#video {
   position: relative;
-  top: 100px;
+  top: 480px;
+  left: 120px;
 }
-
-.jucara-marcal-text p {
-  font-size: 22px;
-}
-
 
 .jucara-marcal-author {
-  position: relative;
-  top: 60px;
-  left: 400px;
-  width: 50%;
+  position: absolute;
+  top: 820px;
+  left: 475px;
+
 }
 
 .jucara-marcal-author h2 {
-  position: relative;
-  left: 60px;
   font-size: 60px;
 }
+
+#obs {
+  position: relative;
+  top: 500px;
+}
+
+/* jucara ends  */
+
+
 
 
 /* -- FOOTER STARTS -- */
@@ -158,7 +196,7 @@ body, main, .container {
   width: 100%;
   height: 162px;
   border-top: 2px solid black;
-  background-color: #4C1919;
+  background-color: black;
 }
 
 .footer-text {
@@ -175,19 +213,19 @@ body, main, .container {
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   letter-spacing: -0.5px;
-  color: #CFC7B4;
+  color: white;
   text-shadow: 2px 2px black;
 }
 
 .footer-text a {
   font-size: 16px;
-  color: #CFC7B4;
+  color: white;
 }
 
 .footer-text a:hover {
   font-size: 16px;
-  color: firebrick;
+  color: rgba(233, 26, 26, 1);
   text-decoration: none;
 }
 
-/* -- FOOTER ENDS -- */ER ENDS -- */
+/* -- FOOTER ENDS -- */
