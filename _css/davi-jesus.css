@@ -18,7 +18,7 @@
   text-shadow: 2px 2px black;
 }
 
-.title h2 {
+.title p {
   position: relative;
   font-size: 32px;
   font-family: 'Oswald', sans-serif;
@@ -242,7 +242,7 @@ body, main, .container {
 
 /* polaroid imgs ends */
 
-.davi-jesus-polaroid-title {
+.davi-jesus-polaroid-text {
   position: relative;
   float: right;
   top: 1360px;
@@ -250,8 +250,8 @@ body, main, .container {
   height: 100px;
 }
 
-.davi-jesus-polaroid-title h2 {
-  font-size: 80px;
+.davi-jesus-polaroid-text p {
+  font-size: 18px;
 }
 
 /* polaroid ends */
@@ -304,11 +304,11 @@ body, main, .container {
 
 }
 
-#inst1-title {
+#inst1-text {
   position: relative;
   top: 60px;
   left: 20px;
-  font-size: 50px;
+  font-size: 18px;
 }
 
 .davi02 {
@@ -327,12 +327,12 @@ body, main, .container {
   top: -108px;
 }
 
-#inst2-title {
+#inst2-text {
   position: relative;
   text-align: center;
   top: 320px;
   height: 100px;
-  font-size: 40px;
+  font-size: 18px;
 }
 
 .davi03 {
@@ -346,11 +346,12 @@ body, main, .container {
   top: -8px;
 }
 
-#inst3-title {
+#inst3-text {
+  position: relative;
   top: 60px;
-  left: 20px;
+  left: -200px;
   float: right;
-  font-size: 50px;
+  font-size: 18px;
 }
 
 .davi04 {
@@ -363,11 +364,12 @@ body, main, .container {
 #inst5 {
 }
 
-#inst4-title {
+#inst4-text {
   float: right;
-  font-size: 50px;
+  position: relative;
+  font-size: 18px;
   top: 60px;
-  left: -40px;
+  left: -50px;
 }
 
 .davi05 {
@@ -386,11 +388,12 @@ body, main, .container {
   left: 31px;
 }
 
-#inst5-title {
+#inst5-text {
+  position: relative;
   top: 320px;
   left: 0px;
   text-align: center;
-  font-size: 40px;
+  font-size: 18px;
 }
 
 
