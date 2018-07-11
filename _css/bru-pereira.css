@@ -4,7 +4,21 @@
 * colors:
 * #4C1919 - Bordô* - rgba(255, 0, 0, 0.6) - rgba(233, 26, 26, 1);
 * #BAA87C - Bege* - lighter => #CFC7B4
+*
+*
+* fonts:
+* 'Source Sans Pro', sans-serif;
+* 'Oswald', sans-serif;
 */
+
+body a {
+  color: white;
+}
+
+body a:hover {
+  color: Dimgray;
+  text-decoration: none;
+}
 
 .title {
   position: relative;
@@ -24,7 +38,7 @@
 
 .text p {
   font-size: 18px;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: black;
   font-weight: lighter;
   text-align: justify;
@@ -151,16 +165,23 @@ body, main, .container {
 
 .bru-pereira-title {
   position: relative;
-  top: 5px;
+  top: -20px;
   left: -30px;
   width: 900px;
   height: 360px;
+  overflow: hidden;
 }
 
 .bru-pereira-title h1 {
   position: relative;
-  font-size: 300px;
+  top: -10px;
+  font-size: 240px;
   text-align: center;
+}
+
+.bru-pereira-text {
+  position: relative;
+  top: -80px;
 }
 
 .bru-pereira-text p {

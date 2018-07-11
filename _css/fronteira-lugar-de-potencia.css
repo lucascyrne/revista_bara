@@ -8,7 +8,12 @@
 
 
 
+body a {
+  color: white;
+}
+
 body a:hover {
+  color: Dimgray;
   text-decoration: none;
 }
 
@@ -35,7 +40,7 @@ body a:hover {
 
 .text p {
   font-size: 18px;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Oswald', sans-serif;
   color: black;
   font-weight: normal;
   text-align: justify;
@@ -70,7 +75,11 @@ body a:hover {
   font-size: 20px;
   font-family: 'Oswald', sans-serif;
   text-shadow: 1px 1px black;
-  color: #CFC7B4;
+  color: whites;
+}
+
+.continue-btn h5:hover {
+  color: lightgray
 }
 
 body, main {
@@ -271,6 +280,41 @@ body, main, .container {
   width: 100%;
 }
 
+.davi-author {
+  position: relative;
+  float: right;
+  top: 20px;
+  width: 80%;
+  height: 40px;
+}
+
+#davi-slash {
+  top: -58px;
+  left: -75px;
+  border: 1.5px solid red;
+}
+
+.davi-author h2 {
+  position: relative;
+  top: -90px;
+  left: -10px;
+  text-align: right;
+  font-size: 22px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.davi-continue {
+  position: relative;
+  top: 40px;
+  width: 100%;
+  height: 40px;
+}
+
+.davi-continue h5 {
+  position: relative;
+  text-align: center;
+}
+
 /* davi ends  */
 
 /* clar nc starts  */
@@ -278,7 +322,7 @@ body, main, .container {
 .clar-nc-section {
   position: relative;
   float: right;
-  top: -280px;
+  top: -290px;
   height: 640px;
   width: 48%;
 }
@@ -332,7 +376,7 @@ body, main, .container {
 .laila-section {
   position: relative;
   float: left;
-  top: 190px;
+  top: 240px;
   height: 870px;
   width: 48%;
 }

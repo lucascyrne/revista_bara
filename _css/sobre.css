@@ -4,6 +4,11 @@
 * colors:
 * #4C1919 - Bordô* - rgba(255, 0, 0, 0.6)
 * #BAA87C - Bege* - lighter => #CFC7B4
+*
+*
+* fonts:
+* 'Source Sans Pro', sans-serif;
+* 'Oswald', sans-serif;
 */
 
 .title {
@@ -29,9 +34,10 @@
 
 .text p {
   font-size: 16px;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Oswald', sans-serif;
   color: black;
-  font-weight: justify;
+  text-align: justify;
+  font-weight: lighter;
 }
 
 .author {

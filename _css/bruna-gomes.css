@@ -29,7 +29,7 @@
 
 .text p {
   font-size: 18px;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: black;
   font-weight: normal;
   text-align: justify;
@@ -227,6 +227,15 @@ body, main, .container {
 #img07 {
   top: -610px;
   left: 430px;
+}
+
+.bruna-gomes-text02 {
+  position: relative;
+  top: 50px;
+}
+
+.bruna-gomes-text02 p i small {
+  font-weight: lighter;
 }
 
 

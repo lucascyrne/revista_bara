@@ -24,7 +24,7 @@
 
 .text p {
   font-size: 18px;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: black;
   font-weight: lighter;
   text-align: justify;
@@ -83,7 +83,7 @@ body, main, .container {
   top: 0px;
   left: 0px;
   width: 75%;
-  height: 6400px;
+  height: 6800px;
   background-color: white;
 }
 
@@ -179,10 +179,11 @@ body, main, .container {
 #quote07,
 #quote08 {
   position: relative;
-  text-align: right;
+  text-align: center;
   font-weight: lighter;
-  font-family: 'Eagle Lake', cursive;
+  font-family: 'Oswald', sans-serif;
   font-size: 16px;
+  text-transform: uppercase;
 }
 
 

@@ -24,7 +24,7 @@
 
 .text p {
   font-size: 18px;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: black;
   font-weight: lighter;
   text-align: justify;
@@ -83,7 +83,7 @@ body, main, .container {
   top: 0px;
   left: 0px;
   width: 75%;
-  height: 1850px;
+  height: 2350px;
   background-color: white;
 }
 
@@ -161,7 +161,8 @@ body, main, .container {
 #quote {
   text-align: center;
   font-weight: lighter;
-  font-family: 'Eagle Lake', cursive;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
 }
 
 .daniel-lima-text {

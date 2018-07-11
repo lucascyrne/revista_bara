@@ -4,6 +4,11 @@
 * colors:
 * #4C1919 - Bordô* - rgba(255, 0, 0, 0.6) - rgba(233, 26, 26, 1);
 * #BAA87C - Bege* - lighter => #CFC7B4
+*
+*
+* fonts:
+* 'Source Sans Pro', sans-serif;
+* 'Oswald', sans-serif;
 */
 
 .title {
@@ -27,11 +32,15 @@
   font-weight: lighter;
 }
 
+body a:hover {
+  text-decoration: none;
+}
+
 .text p {
   font-size: 18px;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Oswald', sans-serif;
   color: black;
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 .author {
@@ -198,7 +207,9 @@ body, main, .container {
   font-size: 60px;
 }
 
-
+#mce-EMAIL {
+  top: 35px;
+}
 
 /* davi jesus ends  */
 

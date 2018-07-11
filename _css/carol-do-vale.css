@@ -4,6 +4,11 @@
 * colors:
 * #4C1919 - Bordô* - rgba(255, 0, 0, 0.6) - rgba(233, 26, 26, 1);
 * #BAA87C - Bege* - lighter => #CFC7B4
+*
+*
+* fonts:
+* 'Source Sans Pro', sans-serif;
+* 'Oswald', sans-serif;
 */
 
 .title {
@@ -24,7 +29,7 @@
 
 .text p {
   font-size: 18px;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: black;
   font-weight: lighter;
   text-align: justify;
@@ -88,7 +93,7 @@ body, main, .container {
   top: 0px;
   left: 0px;
   width: 75%;
-  height: 5000px;
+  height: 3600px;
   background-color: white;
 }
 
@@ -173,7 +178,8 @@ body, main, .container {
 }
 
 #quote {
-  font-family: 'Eagle Lake', cursive;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
 }
 
 .carol-do-vale-author {

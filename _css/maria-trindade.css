@@ -83,7 +83,7 @@ body, main, .container {
   top: 0px;
   left: 0px;
   width: 75%;
-  height: 2300px;
+  height: 2400px;
   background-color: white;
 }
 
@@ -142,6 +142,25 @@ body, main, .container {
 
  /* maria trindade starts  */
 
+ .maria-section {
+   position: relative;
+   width: 80%;
+   left: 95px;
+ }
+
+ .maria-title {
+   position: relative;
+   text-align: center;
+   top: 40px;
+   width: 100%;
+ }
+
+ .maria-title h1 {
+   text-align: center;
+   font-size: 100px;
+ }
+
+
 .maria-imgs {
   position: relative;
   width: 80%;
@@ -154,103 +173,95 @@ body, main, .container {
   position: relative;
   width: 48%;
   height: auto;
-  -webkit-box-shadow: 5px 5px 5px Dimgray;
-          box-shadow: 5px 5px 5px Dimgray;
+  -webkit-box-shadow: 2px 2px 2px Dimgray;
+          box-shadow: 2px 2px 2px Dimgray;
 }
 
 #img01 {
-  float: left;
-  top: 76px;
-  left: 10px;
-  height: 557px;
-}
-
-.maria-title01 {
   position: relative;
-  float: right;
-  width: 50%;
-}
-
-.maria-title01 h1 {
-  text-align: center;
-  font-size: 100px;
+  float: left;
+  width: 48%;
+  height: 422px;
+  top: 80px;
 }
 
 #img02 {
   position: relative;
-  left: 20px;
+  float: right;
+  top: 80px;
+  width: 48%;
 }
 
 #img03 {
   position: relative;
-  top: 10px;
-  left: 20px;
+  float: right;
+  top: 100px;
+  width: 48%;
 }
 
 #img04 {
   position: relative;
-  top: 20px;
-  width: 97.2%;
-  left: 10px;
-}
-
-.maria-title02 {
-  position: relative;
-  top: 20px;
-  float: left;
-  width: 50%;
-}
-
-.maria-title02 h1 {
-  text-align: center;
-  font-size: 100px;
+  top: 120px;
+  width: 100%;
 }
 
 #img05 {
   position: relative;
-  float: right;
-  top: 30px;
-  left: -12px;
-  height: 400px;
+  float: left;
+  top: 140px;
+  width: 48%;
 }
 
 #img06 {
   position: relative;
-  height: 290px;
-  float: left;
-  top: 20px;
-  left: 10px;
+  float: right;
+  top: 140px;
+  width: 48%;
 }
 
 #img07 {
   position: relative;
-  float: left;
-  top: 40px;
-  left: -367px;
-  height: 265px;
+  float: right;
+  top: 160px;
+  width: 48%;
 }
 
 #img08 {
   position: relative;
-  float: right;
-  top: -225px;
-  left: -11px;
+  float: left;
+  top: 160px;
+  width: 48%;
 }
 
 #img09 {
   position: relative;
-  float: left;
-  top: 50px;
-  left: 10px;
-  height: 265px;
+  float: right;
+  top: 180px;
+  width: 48%;
 }
 
 #img10 {
   position: relative;
-  float: right;
-  top: -214px;
-  left: -10px;
-  height: 265px;
+  float: left;
+  top: 200px;
+  width: 48%;
+}
+
+.maria-author {
+  position: relative;
+  top: 500px;
+  text-align: right;
+  width: 100%;
+}
+
+.maria-author h2 {
+  font-size: 60px;
+}
+
+#maria-trindade-slash {
+  position: relative;
+  top: 610px;
+  left: -50px;
 }
 
  /* maria trindade ends  */

@@ -6,7 +6,12 @@
 * #BAA87C - Bege* - lighter => #CFC7B4
 */
 
+body a {
+  color: white;
+}
+
 body a:hover {
+  color: Dimgray;
   text-decoration: none;
 }
 
@@ -33,7 +38,7 @@ body a:hover {
 
 .text p {
   font-size: 18px;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Oswald', sans-serif;
   color: black;
   font-weight: normal;
   text-align: justify;
@@ -68,7 +73,11 @@ body a:hover {
   font-size: 20px;
   font-family: 'Oswald', sans-serif;
   text-shadow: 1px 1px black;
-  color: #CFC7B4;
+  color: white;
+}
+
+.continue-btn h5:hover {
+  color: lightgray
 }
 
 body, main {

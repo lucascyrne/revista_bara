@@ -6,7 +6,12 @@
 * #BAA87C - Bege* - lighter => #CFC7B4
 */
 
+body a {
+  color: white;
+}
+
 body a:hover {
+  color: Dimgray;
   text-decoration: none;
 }
 
@@ -33,7 +38,7 @@ body a:hover {
 
 .text p {
   font-size: 18px;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Oswald', sans-serif;
   color: black;
   font-weight: normal;
   text-align: justify;
@@ -41,7 +46,6 @@ body a:hover {
 
 
 .author {
-
 }
 
 .author h2 {
@@ -68,7 +72,7 @@ body a:hover {
   font-size: 20px;
   font-family: 'Oswald', sans-serif;
   text-shadow: 1px 1px black;
-  color: #CFC7B4;
+  color: whites;
 }
 
 body, main {
@@ -188,6 +192,7 @@ body, main, .container {
 .maria-trindade-author {
   position: relative;
   top: -25px;
+  left: 80px;
   width: 100%;
 }
 
@@ -195,6 +200,20 @@ body, main, .container {
   position: relative;
   top: 35px;
   left: -90px;
+}
+
+.maria-trindade-continue {
+  position: relative;
+  top: -20px;
+  width: 100%;
+  height: 50px;
+}
+
+.maria-trindade-continue h5 {
+  position: relative;
+  text-align: center;
+  top: 10px;
+  font-size: 18px;
 }
 
 /* maria trindade ends  */
@@ -241,7 +260,7 @@ body, main, .container {
 .bruno-caldeira-section {
   position: relative;
   float: left;
-  top: 40px;
+  top: 80px;
   height: 480px;
   width: 48%;
 }
@@ -283,7 +302,7 @@ body, main, .container {
 .bru-pereira-section {
   position: relative;
   float: right;
-  top: -260px;
+  top: -270px;
   height: 300px;
   width: 48%;
 }
@@ -326,7 +345,7 @@ body, main, .container {
 .davi-section {
   position: relative;
   float: left;
-  top: 80px;
+  top: 120px;
   height: 320px;
   width: 48%;
 }
@@ -335,6 +354,7 @@ body, main, .container {
   position: relative;
   text-align: center;
   width: 100%;
+  text-shadow: 1.5px 1.5px black;
 }
 
 .davi-title h1 {
@@ -352,6 +372,41 @@ body, main, .container {
   width: 100%;
 }
 
+.davi-author {
+  position: relative;
+  float: right;
+  top: 20px;
+  width: 80%;
+  height: 40px;
+}
+
+#davi-slash {
+  top: -58px;
+  left: -75px;
+  border: 1.5px solid red;
+}
+
+.davi-author h2 {
+  position: relative;
+  top: -90px;
+  left: -10px;
+  text-align: right;
+  font-size: 22px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.davi-continue {
+  position: relative;
+  top: 40px;
+  width: 100%;
+  height: 40px;
+}
+
+.davi-continue h5 {
+  position: relative;
+  text-align: center;
+}
+
 /* davi ends  */
 
 /* claudinei starts  */
@@ -359,7 +414,7 @@ body, main, .container {
 .claudinei-section {
   position: relative;
   float: right;
-  top: -240px;
+  top: -260px;
   height: 570px;
   width: 48%;
 }
@@ -414,7 +469,7 @@ body, main, .container {
 .clar-nc-section {
   position: relative;
   float: left;
-  top: 100px;
+  top: 190px;
   height: 640px;
   width: 48%;
 }
@@ -468,7 +523,7 @@ body, main, .container {
 .thais-section {
   position: relative;
   float: right;
-  top: -220px;
+  top: -230px;
   height: 880px;
   width: 48%;
 }
@@ -523,7 +578,7 @@ body, main, .container {
 .laila-section {
   position: relative;
   float: left;
-  top: 120px;
+  top: 200px;
   height: 870px;
   width: 48%;
 }
@@ -578,7 +633,7 @@ body, main, .container {
 .jucara-section {
   position: relative;
   float: right;
-  top: -240px;
+  top: -260px;
   height: 525px;
   width: 48%;
 }
@@ -615,7 +670,7 @@ body, main, .container {
 .daniel-lima-section {
   position: relative;
   float: left;
-  top: 160px;
+  top: 180px;
   height: 380px;
   width: 48%;
 }

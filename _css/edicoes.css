@@ -4,7 +4,21 @@
 * colors:
 * #4C1919 - Bordô* - rgba(255, 0, 0, 0.6) - rgba(233, 26, 26, 1);
 * #BAA87C - Bege* - lighter => #CFC7B4
+*
+*
+* fonts:
+* 'Source Sans Pro', sans-serif;
+* 'Oswald', sans-serif;
 */
+
+body a {
+  color: white;
+}
+
+body a:hover {
+  color: Dimgray;
+  text-decoration: none;
+}
 
 .title {
   position: relative;
@@ -29,9 +43,10 @@
 
 .text p {
   font-size: 18px;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Oswald', sans-serif;
   color: black;
-  font-weight: normal;
+  font-weight: lighter;
+  text-align: justify;
 }
 
 .author {
@@ -54,7 +69,7 @@
 }
 
 .continue-btn {
-  background-color: #4C1919;
+  background-color: rgba(233, 26, 26, 1);
 }
 
 .continue-btn h5 {
@@ -88,7 +103,7 @@ body, main, .container {
   top: 0px;
   left: 0px;
   width: 75%;
-  height: 900px;
+  height: 2250px;
   background-color: white;
 }
 
@@ -146,9 +161,9 @@ body, main, .container {
 
 /* social sidebar ends */
 
-/* davi jesus starts  */
+/* edicoes starts  */
 
-.x-section {
+.edicoes-section {
   position: relative;
   width: 80%;
   top: 20px;
@@ -156,9 +171,84 @@ body, main, .container {
   left: 95px;
 }
 
+.edicao-header {
+  position: relative;
+  top: 20px;
+  left: 140px;
+  height: 160px;
+  width: 480px;
+}
+
+.primeira-edicao {
+  position: relative;
+  text-align: center;
+  width: 150px;
+  height: 160px;
+}
+
+.primeira-edicao h1 {
+  color: lightgrey;
+  font-size: 120px;
+}
+
+.edicao-title {
+  position: relative;
+  top: -160px;
+  left: 150px;
+  text-align: left;
+  width: 600px;
+  height: 160px;
+}
+
+.edicao-title h1 {
+  font-size: 120px;
+}
+
+.edicao-text {
+  position: relative;
+  top: 30px;
+}
+
+.continue-btn {
+  width: 260px;
+}
+
+#end {
+  padding-left: 15px;
+  color: white;
+}
+
+.red {
+  color: red;
+}
+
+.link-materias {
+  position: relative;
+  top: 100px;
+  width: 100%;
+  height: 130px;
+  text-align: justify;
+}
+
+.link-materias a {
+  position: relative;
+  color: black;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 0.5px 0.5px black;
+  padding: 3px;
+}
+
+.link-materias a:hover {
+  color: white;
+  background-color: rgba(233, 26, 26, 1);
+}
 
 
-/* davi jesus ends  */
+
+
+/* edicoes ends  */
 
 
 

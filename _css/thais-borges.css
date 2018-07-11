@@ -26,20 +26,20 @@
   position: relative;
   top: -20px;
   text-align: center;
-  font-family: 'Eagle Lake', cursive;
+  font-family: 'Oswald', sans-serif;
   font-weight: lighter;
+  text-transform: uppercase;
 }
 
 .text p {
   font-size: 18px;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: black;
   font-weight: normal;
   text-align: justify;
 }
 
 .author {
-
 }
 
 .author h2 {
@@ -199,7 +199,7 @@ body, main, .container {
 
 .thais-borges-author {
   position: relative;
-  top: 60px;
+  top: 150px;
   left: -5px;
 }
 

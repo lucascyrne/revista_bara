@@ -29,7 +29,7 @@
 
 .text p {
   font-size: 18px;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: black;
   font-weight: normal;
   text-align: justify;
@@ -89,7 +89,7 @@ body, main, .container {
   top: 0px;
   left: 0px;
   width: 75%;
-  height: 1100px;
+  height: 1300px;
   background-color: white;
 }
 
@@ -157,9 +157,19 @@ body, main, .container {
   left: 95px;
 }
 
+.jucara-marcal-title {
+  position: relative;
+  top: 20px;
+}
+
+.jucara-marcal-title h1 {
+  position: relative;
+  font-size: 60px;
+}
+
 .jucara-marcal-text {
   position: absolute;
-  top: 60px;
+  top: 120px;
 }
 
 #video {
@@ -170,7 +180,7 @@ body, main, .container {
 
 .jucara-marcal-author {
   position: absolute;
-  top: 820px;
+  top: 920px;
   left: 475px;
 
 }

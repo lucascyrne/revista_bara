@@ -4,6 +4,11 @@
 * colors:
 * #4C1919 - Bordô* - rgba(255, 0, 0, 0.6) - rgba(233, 26, 26, 1);
 * #BAA87C - Bege* - lighter => #CFC7B4
+*
+*
+* fonts:
+* 'Source Sans Pro', sans-serif;
+* 'Oswald', sans-serif;
 */
 
 .title {
@@ -15,7 +20,7 @@
   font-size: 32px;
   font-family: 'Oswald', sans-serif;
   color: rgba(233, 26, 26, 1);
-  text-shadow: 2px 2px black;
+  text-shadow: 1.5px 1.5px black;
 }
 
 .text {
@@ -29,9 +34,9 @@
 
 .text p {
   font-size: 18px;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Oswald', sans-serif;
   color: black;
-  font-weight: normal;
+  font-weight: lighter;
   text-align: justify;
 }
 
@@ -217,7 +222,7 @@ body, main, .container {
 
 .bruno-caldeira-section {
   position: relative;
-  top: 100px;
+  top:  80px;
   width: 100%;
   height: 150px;
 }
@@ -242,7 +247,7 @@ body, main, .container {
 
 .bru-pereira-section {
   position: relative;
-  top: 130px;
+  top: 100px;
   width: 100%;
   height: 150px;
 }
@@ -265,7 +270,7 @@ body, main, .container {
 
 .carol-vale-section {
   position: relative;
-  top: 110px;
+  top: 100px;
   width: 100%;
   height: 80px;
 }
@@ -311,7 +316,7 @@ body, main, .container {
 
 .clar-nc-section {
   position: relative;
-  top: 110px;
+  top: 100px;
   width: 100%;
   height: 200px;
 }
@@ -334,7 +339,7 @@ body, main, .container {
 
 .claudinei-roberto-section {
   position: relative;
-  top: 150px;
+  top: 100px;
   width: 100%;
   height: 80px;
 }
@@ -357,7 +362,7 @@ body, main, .container {
 
 .daniel-lima-section {
   position: relative;
-  top: 160px;
+  top: 120px;
   width: 100%;
   height: 160px;
 }
@@ -380,7 +385,7 @@ body, main, .container {
 
 .davi-jesus-section {
   position: relative;
-  top: 190px;
+  top: 140px;
   width: 100%;
   height: 390px;
 }
@@ -403,7 +408,7 @@ body, main, .container {
 
 .iara-machado-section {
   position: relative;
-  top: 230px;
+  top: 140px;
   width: 100%;
   height: 200px;
 }
@@ -413,6 +418,7 @@ body, main, .container {
   top: -5px;
   left: 50px;
 }
+
 
 .iara-machado-text {
   position: absolute;
@@ -426,7 +432,7 @@ body, main, .container {
 
 .jucara-marcal-section {
   position: relative;
-  top: 270px;
+  top: 170px;
   width: 100%;
   height: 100px;
 }
@@ -449,7 +455,7 @@ body, main, .container {
 
 .laila-pereira-section {
   position: relative;
-  top: 280px;
+  top: 190px;
   width: 100%;
   height: 350px;
 }
@@ -472,7 +478,7 @@ body, main, .container {
 
 .mariana-matos-section {
   position: relative;
-  top: 300px;
+  top: 180px;
   width: 100%;
   height: 330px;
 }
@@ -495,7 +501,7 @@ body, main, .container {
 
 .maria-trindade-section {
   position: relative;
-  top: 340px;
+  top: 190px;
   width: 100%;
   height: 180px;
 }
@@ -518,7 +524,7 @@ body, main, .container {
 
 .thais-borges-section {
   position: relative;
-  top: 360px;
+  top: 200px;
   width: 100%;
   height: 100px;
 }
